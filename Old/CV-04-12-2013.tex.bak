@@ -1,0 +1,156 @@
+\documentclass[margin,line]{res}
+
+
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\textwidth=6.0in
+\itemsep=0in
+\parsep=0in
+% if using pdflatex:
+\setlength{\pdfpagewidth}{\paperwidth}
+\setlength{\pdfpageheight}{\paperheight} 
+
+\usepackage[linkcolor=black, urlcolor=black, colorlinks=true, breaklinks=true]{hyperref}
+\usepackage{url}
+\urlstyle{same}
+\usepackage[T1]{fontenc}
+\usepackage[none]{hyphenat}
+\newcommand*{\doi}[1]{\href{http://dx.doi.org/#1}{\nolinkurl{doi:#1}}}
+
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0.05in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+      
+\newenvironment{list3}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0.1in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0in}}}{\end{list}}
+
+
+\begin{document}
+
+\name{\huge{Bryan W. Weber}}
+
+\begin{resume}
+\section{\sc Contact Information}
+\vspace{.05in}
+\begin{tabular}{@{}p{2.5in}p{0.1in}p{2in}}
+University of Connecticut             &|& {\it Email:}  \href{mailto:bryan.weber@uconn.edu}{bryan.weber@uconn.edu}\\
+Department of Mechanical Engineering  &|& {\it Work:} (860) 486-2492 \\         
+191 Auditorium Road U-3139            &|& {\it Cell:} (412) 443-6447 \\            
+Storrs, CT 06269 USA                  &|& {\it Web:} \url{http://bryanwweber.com} \\     
+\end{tabular}
+
+
+\section{\sc Research Interests}
+{\bf Combustion Engineering:} Alternative biofuels including alcohols and biodiesel; design of novel experimental methods for combustion analysis
+
+\section{\sc Education}
+{\bf University of Connecticut}, Storrs, CT, USA
+\begin{list1}
+\item[] Doctor of Philosophy, Mechanical Engineering, 2014 (Planned)
+\item[] Working Dissertation Title: \emph{High Pressure Ignition Chemistry of Alternative Fuels}
+\end{list1}
+\vspace*{0.1in}
+\begin{list1}
+\item[] Master of Science, Mechanical Engineering, 2010
+\item[] Thesis Title: \emph{Autoignition of n-Butanol at Low to Intermediate Temperature and Elevated Pressure}
+\end{list1}
+\vspace*{0.1in}
+\begin{list1}
+\item[] Advisor: Dr. Chih-Jen (Jackie) Sung
+\end{list1}
+
+{\bf Case Western Reserve University}, Cleveland, OH, USA
+\begin{list1}
+\item[] Bachelor of Science, Aerospace Engineering, 2009
+\item[] Senior Project Title: \emph{Analysis of Heavy Hydrocarbon Fuels using Gas Chromatography with Mass Spectrometry}
+\item[] Advisor: Dr. Chih-Jen (Jackie) Sung
+\end{list1}
+
+\section{\sc Research Experience}
+{\bf \large{Combustion Diagnostics Laboratory \hfill 2007-Present}}\\
+University of Connecticut, Storrs, CT, USA\\
+Case Western Reserve University, Cleveland, OH, USA\\
+{\bf Ongoing Projects:}
+\begin{list2}
+\item Experimentally and computationally studying the ignition properties of the butanol isomers over a wide pressure range
+\item Designing a species sampling apparatus for time-resolved species measurements in the rapid compression machine
+\end{list2}
+{\bf Completed Projects:}
+\begin{list2}
+\item Characterized the components of heavy hydrocarbon fuels, including conventional and synthetic jet fuels, using gas chromatography/mass spectrometry
+\item Experimentally investigated the autoignition of iso-pentanol, an alternative biofuel, in the rapid compression machine
+\item Experimentally investigated the autoignition of methylcyclohexane, a surrogate for gasoline, in the rapid compression machine
+\end{list2}
+
+\section{\sc Teaching Experience}
+{\bf \large{University of Connecticut, Storrs, CT, USA}}\\
+\begin{list2}
+\item ENGR 1166: Introduction to Mechanical Engineering \hfill Spring 2013\\
+Lecturer
+\item ME 3239: Combustion for Energy Conversion \hfill Fall 2012\\
+Teaching Assistant and substitute lecturer
+\end{list2}
+
+\section{\sc Administrative Experience}
+{\bf Co-chair, Combustion Energy Frontier Research Center Junior Associates Committee \hfill 2012-Present}
+
+\section{\sc Awards, Fellowships,\\ and Grants}
+{\bf Graduate Assistantship in Areas of National Need \hfill Spring 2010}\\
+Awarded in the area of Sustainable Energy Technologies
+
+{\bf Fred H. Vose Prize \hfill Spring 2009}\\
+Awarded to the senior in Mechanical and Aerospace Engineering at Case Western Reserve University showing the most promise for future leadership
+
+{\bf Summer Undergraduate Research in Energy Sciences Grant \hfill Summer 2008}\\
+Awarded for research to analyze the composition of traditional petroleum-based hydrocarbon fuels using GC/MS
+
+\section{\sc Journal Publications}
+\begin{list3}
+\item[] {\bf B.W. Weber}, and C.J. Sung. {\em Comparative Autoignition Trends in Butanol Isomers at Elevated Pressure.} Energy and Fuels, vol. 27, no. 3, pp. 1688-1698. \doi{10.1021/ef302195c}
+\item[] T. Tsujimura, W.J. Pitz, F. Gillespie, H.J. Curran, {\bf B.W. Weber}, Y. Zhang, and C.J. Sung. {\em Development of Isopentanol Reaction Mechanism Reproducing Autoignition Character at High and Low Temperatures.} Energy and Fuels, vol. 26, no. 8, pp. 4871-4886. \doi{10.1021/ef300879k}
+\item[] {\bf B.W. Weber}, K. Kumar, Y. Zhang, and C.J. Sung. {\em Autoignition of n-butanol at elevated pressure and low-to-intermediate temperature.} Combustion and Flame, vol. 158, no. 5, pp. 809-819. \doi{10.1016/j.combustflame.2011.02.005}
+\end{list3}
+
+\section{\sc Conference Presentations}
+\begin{list3}
+\item {\bf B.W. Weber}, S.S. Merchant, C.J. Sung, and W.H. Green. {\em An Autoignition Study of iso-Butanol: Experiments and Modeling.} Paper 070RK-0054, 8\textsuperscript{th} US National Technical Meeting of the Combustion Institute, Park City, UT, May 2013.
+\item {\bf B.W. Weber}, W.J. Pitz, C.J. Sung, M. Mehl, E.J. Silke, A.C. Davis. {\em Experiments and Modeling of the Autoignition of Methyl-Cyclohexane at High Pressure.} Paper 070RK-0059, 8\textsuperscript{th} US National Technical Meeting of the Combustion Institute, Park City, UT, May 2013.
+\item S.M. Sarathy, S. Park, W. Wang, P. Veloo, A.C. Davis, C. Togb\`{e}, {\bf B.W. Weber}, C.K. Westbrook, O. Park, G. Dayma, Z. Luo, M.A. Oehlschlaeger, F. Egolfopoulos, T. Lu, W.J. Pitz, C.J. Sung, P. Dagaut. {\em A Comprehensive Experimental and Modeling Study of iso-Pentanol Combustion.} Paper 070RK-0050, 8\textsuperscript{th} US National Technical Meeting of the Combustion Institute, Park City, UT, May 2013.
+\item[] {\bf B.W. Weber} and C.J. Sung. {\em Comparative Investigation of the High Pressure Autoignition of the Butanol Isomers.} Paper A-01, Fall Technical Meeting of the Eastern States Section of the Combustion Institute, Storrs, CT, October 2011.
+\item[] M.R. Harper, W.H. Green, K.M. Van Geem, {\bf B.W. Weber}, C.J. Sung, I. Stranic, D.F. Davidson,  R.K. Hanson. {\em Combustion of the butanol isomers: Reaction pathways at elevated pressures from low-to-high temperatures.} Paper \#84, 7\textsuperscript{th} International Conference on Chemical Kinetics, Massachusetts Institute of Technology, Cambridge, MA, July 2011.
+\item[] {\bf B.W. Weber} and C.J. Sung. {\em A Rapid Compression Study of the Butanol Isomers at Elevated Pressure.} Paper 1B13, 7\textsuperscript{th} US National Technical Meeting of the Combustion Institute, Georgia Institute of Technology, Atlanta, GA, March 2011.
+\item[] {\bf B.W. Weber}, K. Kumar, and C.J. Sung. {\em Autoignition of Butanol Isomers at Low to Intermediate Temperature and Elevated Pressure.} Paper AIAA-2011-0316, 49\textsuperscript{th} Annual Aerospace Sciences Meeting, Orlando, FL, January 2011.
+\end{list3}
+
+\section{\sc Poster Presentations}
+\begin{list3}
+\item[] {\bf B.W. Weber} and C.J. Sung. {\em Validation of Kinetic Models of the Butanol Isomers At High Pressure using a Rapid Compression Machine.} Poster T40, 7\textsuperscript{th} International Conference on Chemical Kinetics, Massachusetts Institute of Technology, Cambridge, MA, July 2011.
+\item[] {\bf B.W. Weber}. {\em Autoignition of n-Butanol at Elevated Pressure and Low to Intermediate Temperature.} 1\textsuperscript{st} Combustion Energy Frontiers Research Center Annual Meeting, Princeton University, Princeton, NJ, September 2010.
+\item[] {\bf B.W. Weber}, K. Kumar, and C.J. Sung. {\em An Investigation of Hydrocarbon Flames using Probe Sampling and Gas Chromatography/Mass Spectrometry.} Support of Undergraduate Research and Creative Endeavors Symposium and Poster Session, Case Western Reserve University, Cleveland, OH, April 2009.
+\end{list3}
+
+\section{\sc Other Presentations}
+\begin{list3}
+\item[] {\bf B.W. Weber} and C.J. Sung. {\em Analysis of Hydrocarbon Fuels using Gas Chromatography/Mass Spectrometry.} Summer Undergraduate Research in Energy Sciences Program, Dominion Energy East Ohio Branch, Cleveland, OH, August 2008.
+\end{list3}
+
+
+\end{resume}
+\end{document}
+
+
+
+

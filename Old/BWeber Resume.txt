@@ -1,0 +1,62 @@
+Bryan W. Weber
+bryan.weber@uconn.edu
+
+Education
+Case Western Reserve University, Cleveland, OH
+Bachelor of Science, Aerospace Engineering
+Graduated cum laude, May 2009
+Cumulative GPA: 3.73
+
+University of Connecticut, Storrs, CT
+Master of Science, Mechanical Engineering
+Planned Graduation: August 2010
+
+Professional Experience
+Master’s Thesis (Planned Completion: June 2010)
+Combustion Laboratory, University of Connecticut, Storrs, CT
+Autoignition of n-Butanol at Elevated Pressure 
+Objective: To determine the ignition characteristics and kinetics of the n-Butanol using a rapid compression machine
+* Developed LabView instrument to control data sampling from the rapid compression machine 
+* Designed and constructed an electrical circuit and mechanical system to control diaphragm puncture timing on a sampling apparatus for the rapid compression machine 
+* Operating the rapid compression machine to measure the autoignition delay associated with n-Butanol
+* Operating the gas chromatograph, mass spectrometer, and flame ionization detector to determine the kinetic pathways of n-Butanol ignition
+* Simulating ignition delay and kinetic results of experiments using CHEMKIN software
+
+Senior Project, Summer 2008-Spring 2009
+Combustion Diagnostics Laboratory, Case Western Reserve University, Cleveland, OH
+Analysis of Heavy Hydrocarbon Fuels using Gas Chromatography with Mass Spectrometry
+Characterized the composition of unburned conventional and synthetic jet fuels (Jet-A, JP-8, and S-8)
+
+Mechanical Engineering Laboratory 2, Spring 2008
+Combustion Diagnostics Laboratory, Case Western Reserve University, Cleveland, OH
+An Investigation of Hydrocarbon Flames using Probe Sampling and Gas Chromatography with Mass Spectrometry
+* Constructed gas sampling probe and control system
+* Tested sampling probe on flat, premixed methane flames
+
+Internship, Summer 2007
+Combustion Diagnostics Laboratory, Case Western Reserve University, Cleveland, OH
+Catalytic Hydrogen Ignition Project 
+* Designed, constructed, and calibrated a flow control system for gaseous hydrogen, nitrogen, and oxygen
+* Designed and constructed a customized translation stage for hydrogen-air burner
+* Constructed a customized exhaust hood for hydrogen-air burner
+
+Awards
+* The Fred H. Vose Prize, awarded to the senior in Mechanical and Aerospace Engineering at Case Western Reserve University showing the most promise for future leadership, 2009
+* The Summer Undergraduate Research in Energy Sciences grant for $3,500 from Case Western Reserve University, 2008
+* The Case Alumni Association Junior/Senior Scholarship for $2,100 per year, 2008-2009
+* The Provost’s Scholarship for $14,400 per year for 4 years to attend Case Western Reserve University, 2005-2009
+* A Graduate Assistantship in Areas of National Need Fellowship for $7,600 for Spring 2010 semester, with the possibility of continuing support for Ph.D. dissertation
+
+Presentations
+* Hands-on demonstration of the rapid compression machine to senior faculty in the Mechanical Engineering Department at the University of Connecticut, senior engineers at Pratt & Whitney, and senior research fellows at United Technologies Research Center; October 2009
+* An Investigation of Hydrocarbon Flames using Probe Sampling and Gas Chromatography/Mass Spectrometry; 2009 Symposium and Poster Session, sponsored by the Support of Undergraduate Research and Creative Endeavors Office at Case Western Reserve University; April 2009
+* Analysis of Hydrocarbon Fuels using Gas Chromatography/Mass Spectrometry; 2008 Summer Undergraduate Research in Energy Sciences program, sponsored by the Dominion Energy East Ohio Branch; August 2008
+
+Leadership Experience
+Combustion Diagnostics Lab, Case Western Reserve University, Cleveland, OH
+Mentored an undergraduate student in the Summer Research in Energy Studies program, 2009
+Ultimate Frisbee Club, Case Western Reserve University, Cleveland, OH
+President, 2008; Treasurer, 2007-2008; Secretary and Webmaster, 2006-2007; Member, 2005-2009
+
+Computer Skills
+Windows XP, SolidWorks, Microsoft Word, Excel, and PowerPoint, MatLab, LabView, CHEMKIN III, 4.1.1 and PRO
