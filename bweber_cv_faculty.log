@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.6.28)  29 JUL 2013 11:03
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.7.28)  5 AUG 2013 11:12
 entering extended mode
 **bweber_cv_faculty.tex
 (C:\Users\bww09001\Dropbox\Resume\bweber_cv_faculty.tex
@@ -6,10 +6,10 @@ LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
 croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, iceland
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
 ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
  lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
-german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
@@ -51,7 +51,7 @@ LaTeX Info: Redefining \addtolength on input line 77.
 \calc@Ccount=\count89
 \calc@Cskip=\skip45
 )
-(C:\Users\bww09001\AppData\Roaming\MiKTeX\2.9\tex\latex\ncctools\extdash.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\ncctools\extdash.sty"
 Package: extdash 2005/01/29 v1.2 Extended Dash Package (NCC)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
@@ -86,7 +86,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@dimlist=\toks15
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-(C:\Users\bww09001\AppData\Roaming\MiKTeX\2.9\tex\latex\enumitem\enumitem.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty"
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip46
 \enit@outerparindent=\dimen113
@@ -102,16 +102,16 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \c@bibenumiii=\count97
 \enitdp@bibenum=\count98
 
-(C:\Users\bww09001\AppData\Roaming\MiKTeX\2.9\tex\latex\datetime\datetime.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\datetime\datetime.sty"
 Package: datetime 2010/09/21 v2.58 Date Time Package
 
-(C:\Users\bww09001\AppData\Roaming\MiKTeX\2.9\tex\latex\fmtcount\fmtcount.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\fmtcount\fmtcount.sty"
 Package: fmtcount 2012/10/24 v2.02
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(C:\Users\bww09001\AppData\Roaming\MiKTeX\2.9\tex\latex\etoolbox\etoolbox.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
 Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\misc\etex.sty"
@@ -120,14 +120,14 @@ Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
 )
 \etb@tempcnta=\count100
 )
-(C:\Users\bww09001\AppData\Roaming\MiKTeX\2.9\tex\latex\fmtcount\fcprefix.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\fmtcount\fcprefix.sty"
 Package: fcprefix 2012/09/28
 
-(C:\Users\bww09001\AppData\Roaming\MiKTeX\2.9\tex\latex\fmtcount\fcnumparser.st
-y
+("C:\Program Files\MiKTeX 2.9\tex\latex\fmtcount\fcnumparser.sty"
 Package: fcnumparser 2012/09/28
 \fc@digit@counter=\count101
-)) ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks17
 \ex@=\dimen114
@@ -142,7 +142,7 @@ File: amsgen.sty 1999/11/30 v2.0
 \@DT@loopN=\count109
 \@DT@X=\count110
 
-(C:\Users\bww09001\AppData\Roaming\MiKTeX\2.9\tex\latex\fmtcount\fc-english.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\fmtcount\fc-english.def"
 File: fc-english.def 2012/06/18
 ))
 \@day=\count111
@@ -166,7 +166,7 @@ LaTeX Info: Redefining \today on input line 724.
 \dt@a=\toks18
 \dt@b=\toks19
 )
-(C:\Users\bww09001\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
 \fancy@headwidth=\skip49
 \f@ncyO@elh=\skip50
 \f@ncyO@erh=\skip51
@@ -177,7 +177,7 @@ LaTeX Info: Redefining \today on input line 724.
 \f@ncyO@olf=\skip56
 \f@ncyO@orf=\skip57
 )
-(C:\Users\bww09001\AppData\Roaming\MiKTeX\2.9\tex\latex\lastpage\lastpage.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\lastpage\lastpage.sty"
 Package: lastpage 2013/01/28 v1.2l Refers to last page's name (HMM; JPG)
 )
 \footpageshift=\skip58
@@ -273,7 +273,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count130
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
@@ -317,7 +317,7 @@ Package hyperref Info: Option `breaklinks' set `true' on input line 167.
 \enitdp@innerlist=\count139
 \enitdp@loneinnerlist=\count140
 
-(C:\Users\bww09001\AppData\Roaming\MiKTeX\2.9\tex\latex\doi\doi.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\doi\doi.sty"
 Package: doi 2007/07/24 handle doi numbers
 ))
 (C:\Users\bww09001\Dropbox\Resume\bweber_cv_faculty.aux)
@@ -377,7 +377,7 @@ Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             install/macros/latex/contrib/pageslts.tds.zip
 (lastpage)             ! on input line 5.
-(C:\Users\bww09001\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count141
 \scratchdimen=\dimen119
@@ -431,8 +431,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 74.
  [1
 
-{C:/Users/bww09001/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3]
-
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3] 
 AED: lastpage setting LastPage
 [4]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 264.
@@ -445,12 +444,12 @@ Package rerunfilecheck Info: File `bweber_cv_faculty.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  7170 strings out of 493921
- 104489 string characters out of 3147330
+ 103916 string characters out of 3147273
  210511 words of memory out of 3000000
  10362 multiletter control sequences out of 15000+200000
  10702 words of font info for 24 fonts, out of 3000000 for 9000
  847 hyphenation exceptions out of 8191
- 39i,12n,43p,977b,556s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,12n,43p,977b,551s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\bww09001\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi6
 00\ecbx1200.pk> <C:\Users\bww09001\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkn
 appen\ec\dpi600\ecrm0700.pk> <C:\Users\bww09001\AppData\Local\MiKTeX\2.9\fonts\
@@ -462,9 +461,9 @@ ww09001\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk
 0\eccc1000.pk> <C:\Users\bww09001\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkna
 ppen\ec\dpi600\ecbx1440.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
 onts/cm/cmsy10.pfb>
-Output written on bweber_cv_faculty.pdf (4 pages, 109221 bytes).
+Output written on bweber_cv_faculty.pdf (4 pages, 109723 bytes).
 PDF statistics:
- 366 PDF objects out of 1000 (max. 8388607)
+ 367 PDF objects out of 1000 (max. 8388607)
  18 named destinations out of 1000 (max. 500000)
  105 words of extra memory for PDF output out of 10000 (max. 10000000)
 
