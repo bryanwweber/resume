@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2013.8.10)  10 AUG 2013 22:48
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2013.8.10)  10 AUG 2013 22:57
 entering extended mode
 **bweber_cv_faculty.tex
 (C:\Users\Bryan\Dropbox\Resume\bweber_cv_faculty.tex
@@ -741,29 +741,29 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 76.
  [1
 
-{C:/Users/Bryan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
+{C:/Users/Bryan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 205.
- [3]
+ine 162.
+ [2] [3]
 
 AED: lastpage setting LastPage
 [4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 266.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 266.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 267.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 267.
  (C:\Users\Bryan\Dropbox\Resume\bweber_cv_faculty.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 266.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 266.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 267.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 267.
 Package rerunfilecheck Info: File `bweber_cv_faculty.out' has not changed.
-(rerunfilecheck)             Checksum: E1302BA7A44621529720FD6C89B73904;780.
+(rerunfilecheck)             Checksum: 6905C698EDE0BBB9A49E3A7C4BE9A5E5;780.
  ) 
 Here is how much of TeX's memory you used:
- 15961 strings out of 493921
- 281739 string characters out of 3144876
- 371399 words of memory out of 3000000
- 18932 multiletter control sequences out of 15000+200000
+ 15965 strings out of 493921
+ 281815 string characters out of 3144876
+ 371453 words of memory out of 3000000
+ 18934 multiletter control sequences out of 15000+200000
  10702 words of font info for 24 fonts, out of 3000000 for 9000
  847 hyphenation exceptions out of 8191
- 65i,12n,80p,977b,790s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 65i,12n,80p,977b,904s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Bryan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
 ecbx1200.pk> <C:\Users\Bryan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
 ec\dpi600\ecrm0700.pk> <C:\Users\Bryan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
@@ -775,9 +775,9 @@ AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Us
 ers\Bryan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1000.
 pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 >
-Output written on bweber_cv_faculty.pdf (4 pages, 112260 bytes).
+Output written on bweber_cv_faculty.pdf (4 pages, 113194 bytes).
 PDF statistics:
- 381 PDF objects out of 1000 (max. 8388607)
- 21 named destinations out of 1000 (max. 500000)
+ 385 PDF objects out of 1000 (max. 8388607)
+ 23 named destinations out of 1000 (max. 500000)
  125 words of extra memory for PDF output out of 10000 (max. 10000000)
 
