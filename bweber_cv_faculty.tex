@@ -9,62 +9,34 @@
 
 \section{Contact Information}
 
-% NOTE: Mind where the & separators and \\ breaks are in the following
-%       table. Table is one row made up of three parboxes. The left
-%       parbox has address info, the middle parbox has a vertical bar,
-%       and the right parbox has phone and electronic contact
-%       information.
-%
-% MACROS: \rcollength is the width of the right column of the table
+% MACROS: \rcolwidth is the width of the right column of the table
 %             (adjust it to your liking; default is 1.85in).
-%         \spacewidth is width of area between left and right boxes.
+%         \ccolwidth is width of area between left and right boxes.
 %
-\newlength{\rcollength}\setlength{\rcollength}{2.05in}%
-\newlength{\spacewidth}\setlength{\spacewidth}{30pt}
+\newlength{\rcolwidth}\setlength{\rcolwidth}{2.5in}%
+\newlength{\ccolwidth}\setlength{\ccolwidth}{30pt}
+\newlength{\lcolwidth}\setlength{\lcolwidth}{\textwidth-\rcolwidth-\ccolwidth}
 %
-\begin{tabular}[t]{@{}p{\textwidth-\rcollength-\spacewidth}@{}p{\spacewidth}@{}p{\rcollength}}%
-
 % Address box
-\parbox{\textwidth-\rcollength-\spacewidth}{%
+\begin{varwidth}{\lcolwidth}%
 Department of Mechanical Engineering\\
 University of Connecticut\\
 191 Auditorium Road U-3139\\
-Storrs, CT 06269 USA}
-
-&
-% Uncomment to add a vertical bar in middle of contact information
-{\vrule width 0.5pt}
-\parbox[m][4\baselineskip]{\spacewidth}{} &
-
+Storrs, CT 06269 USA%
+\end{varwidth}%
+\hfill
+%Vertical rule separating adress from other contact info.
+\begin{varwidth}{\ccolwidth}
+\rule{0.5pt}{4\baselineskip} %Comment this line to remove the line.
+\end{varwidth}%
+\hfill
 % Non-snail-mail contact information
-\parbox{\rcollength}{%
+\begin{varwidth}{\rcolwidth}%
 \textit{E-mail:} \email{bryan.weber@uconn.edu}\\
 \textit{Work:} +1-860-486-2492 \\
 \textit{Cell:} +1-412-443-6447 \\
 \textit{Web:} \href{http://bryanwweber.com}{bryanwweber.com}
-}%
-
-\end{tabular}
-
-%%
-%% In modern CV's, it seems like ``Objective'' is frowned upon. Instead,
-%% incorporate it into a well-constructed cover letter. The ``More
-%% information'' can go at the end of the CV, but it should not distract
-%% from the section giving references available to contact.
-%%
-%
-% \section{Objective}
-%
-% Placement in an academic position (i.e., faculty, postdoctoral, or
-% research scientist) that allows for advanced research in distributed
-% complex adaptive systems (i.e., modeling, analysis, design, and
-% verification) with a particular focus on the control of engineered
-% agents (e.g., for communications, control, software, electronics, and
-% sustainability) and the analysis of biological phenomena (e.g.,
-% self-organization, ecological rationality)
-% \begin{innerlist}
-% \item More information and auxiliary documents can be found at\\\url{http://www.tedpavlic.com/facjobsearch/}
-% \end{innerlist}
+\end{varwidth}%
 
 \section{Research Interests}
 {\bf Combustion Engineering:} Alternative biofuels including alcohols and biodiesel; design of novel experimental methods for combustion analysis
@@ -183,7 +155,7 @@ Storrs, CT 06269 USA}
 
 \section{Research Experience}
 
-{\large \bf Combustion Diagnostics Laboratory} \hfill 2007-Present\\
+\textbf{\large Combustion Diagnostics Laboratory} \hfill 2007-Present\\
 University of Connecticut, Storrs, CT, USA\\
 Case Western Reserve University, Cleveland, OH, USA
 \begin{outerlist}
@@ -200,7 +172,7 @@ Case Western Reserve University, Cleveland, OH, USA
 
 \section{Professional Experience}
 %\begin{outerlist}
-   \textbf{ Combustion Energy Frontier Research Center} \hfill 2012-Present
+   \textbf{Combustion Energy Frontier Research Center} \hfill 2012-Present
    \begin{innerlist}
       \item Co-chair, Junior Associates Committee
       \item Duties include planning monthly teleconferences for junior members of the CEFRC, attending PI teleconferences on behalf of the junior members, etc. \todo[inline]{Update the duties in this position}
@@ -208,21 +180,22 @@ Case Western Reserve University, Cleveland, OH, USA
 %\end{outerlist}
 
 \section{Awards and Fellowships}
-\textbf{ University of Connecticut}
+\textbf{University of Connecticut}
 \begin{outerlist}
    \item \textbf{First Place, Mechanical Engineering Graduate Predoctoral Fellowship Award \hfill Spring 2013} \todo[inline]{Update description of this award with its meaning}
 
-   \item \textbf{ Graduate Assistantship in Areas of National Need \hfill Spring 2010}\\
+   \item \textbf{Graduate Assistantship in Areas of National Need \hfill Spring 2010}\\
 Awarded in the area of Sustainable Energy Technologies
 \end{outerlist}
 \vspace{0.1in}
-\textbf{ Case Western Reserve University}
+\textbf{Case Western Reserve University}
 \begin{outerlist}
 
-   \item \textbf{ Fred H. Vose Prize \hfill Spring 2009}\\
+   \item \textbf{Fred H. Vose Prize \hfill Spring 2009}\\
 Awarded to the senior in Mechanical and Aerospace Engineering at Case Western Reserve University showing the most promise for future leadership
 
-   \item \textbf{ Summer Undergraduate Research in Energy Sciences Grant \hfill Summer 2008}\\
+   \item \textbf{Summer Undergraduate Research \hfill Summer 2008\\
+   in Energy Sciences Grant}\\
 Awarded for research to analyze the composition of traditional petroleum-based hydrocarbon fuels using GC/MS
 
 \end{outerlist}
@@ -249,8 +222,7 @@ Software Packages:
 \begin{innerlist}
     \item CHEMKIN-II and associated programs (SENKIN, etc.)
     \item CHEMKIN-Pro
-    \item \TeX{} (\LaTeX{}, \BibTeX{}),
-    \item Microsoft Office, Google Docs
+    \item Microsoft Office, \TeX{} (\LaTeX{}, \BibTeX{}), Google Docs
     \item Solidworks 3D Modeling
 \end{innerlist}
 

@@ -21,6 +21,7 @@
 \documentclass[10pt]{article}
 \RequirePackage[T1]{fontenc}
 \usepackage{todonotes}
+\usepackage{varwidth}
 % LaTeX will typeset using Computer Modern Roman, which a lot of
 % non-mathematicians and non-engineers won't like. Also, a few PDF
 % viewers may not render CMR very well. Instead, Times New Roman can
@@ -73,7 +74,7 @@
 \usepackage[paper=letterpaper,
             %includefoot, % Uncomment to put page number above margin
             marginparwidth=1.2in,     % Length of section titles
-            marginparsep=.05in,       % Space between titles and text
+            marginparsep=.025in,       % Space between titles and text
             margin=1in,               % 1 inch margins
             includemp]{geometry}
 
@@ -153,11 +154,11 @@
 \setlength{\footpageshift}
           {0.5\textwidth+0.5\marginparsep+0.5\marginparwidth-2in}
 \lfoot{\hspace{\footpageshift}%
-       \parbox{5.5in}{\line(1,0){394}\\%
-       \, \mydate\today \hspace{25em}%
+       \parbox{\textwidth}{\line(1,0){381.2}\\%
+       \, \mydate\today \hfill%
 %                    \arabic{page} of \protect\pageref*{LastPage} % +LP
                     Bryan W. Weber \quad \arabic{page} % -LP
-                    \hfill \,}}
+                    }}
 
 % Finally, give us PDF bookmarks
 \usepackage{color,hyperref}
