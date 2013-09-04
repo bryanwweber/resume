@@ -3,14 +3,24 @@
 %This document must be compiled with XeLaTeX. This means that any font
 %installed on the system can be used. Select the font here.
 %
-\setmainfont{Lucida Sans}
 \defaultfontfeatures{Mapping=tex-text}
+\setmainfont[Path = fonts/ ,
+             Ligatures = Common ,
+             Extension = .otf , 
+             BoldFont = Fontin_Sans_B_45b , 
+             ItalicFont = Fontin_Sans_I_45b , 
+             SmallCapsFont = Fontin_Sans_SC_45b
+]
+{Fontin_Sans_R_45b}
+\newfontface\head[Path = fonts/]{GenBkBasB.ttf}
+               
+
 %%%%%%%%%%%%%%%%%%%%%%%%% Begin CV Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
 \listoftodos
 \vspace{1em}
-\makeheading{Bryan W. Weber}
+\makeheading{{\head Bryan W. Weber}}
 
 \section{Contact Information}
 
@@ -93,12 +103,12 @@ combustion analysis
         G. Dayma, Z. Luo, M.A. Oehlschlaeger, F.N. Egolfopoulos,
         T. Lu, W.J. Pitz, C.J. Sung, and P. Dagaut. \textit{A 
         Comprehensive Experimental and Modeling Study of iso-Pentanol 
-        Combustion.} Combustion and Flame, Aug. 2013.
+        Combustion.} Combustion and Flame, Aug. 2013. \\
         \doi{10.1016/j.combustflame.2013.06.022}
         
 \item[] \textbf{B.W. Weber} and C.J. Sung. \textit{Comparative
         Autoignition Trends in Butanol Isomers at Elevated Pressure.}
-        Energy and Fuels, vol. 27, no. 3, pp. 1688-1698, Feb. 2013.
+        Energy and Fuels, vol. 27, no. 3, pp. 1688-1698, Feb. 2013. \\
         \doi{10.1021/ef302195c}
         
 \item[] T. Tsujimura, W.J. Pitz, F. Gillespie, H.J. Curran,
@@ -125,19 +135,19 @@ combustion analysis
 
 \begin{bibsection}
 \item[] S.S. Merchant (Presenting), W.H. Green, K.M. Van Geem, N.
-        Hansen, \textbf{B.W. Weber}, C.J. Sung. \textit{Combustion of 
-        the Butanol Isomers: Reaction Pathways from High to Low
-        Temperature.} \ordinalnum{8} International Conference on
-        Chemical Kinetics, University Seville, Seville, Spain, July
-        2013.
+        Hansen, \textbf{B.W. Weber}, and C.J. Sung. 
+        \textit{Combustion of the Butanol Isomers: Reaction Pathways
+        from High to Low Temperature.} \ordinalnum{8} International 
+        Conference on Chemical Kinetics, University Seville, Seville,
+        Spain, July 2013.
 
-\item[] \textbf{ B.W. Weber}, W.J. Pitz, C.J. Sung, M. Mehl,
-        E.J. Silke, A.C. Davis. \textit{Experiments and Modeling of the
-        Autoignition of Methyl-Cyclohexane at High Pressure.}
+\item[] \textbf{B.W. Weber}, W.J. Pitz, C.J. Sung, M. Mehl,
+        E.J. Silke, and A.C. Davis. \textit{Experiments and Modeling of
+        the Autoignition of Methyl-Cyclohexane at High Pressure.}
         Paper 3A02, \ordinalnum{8} US National Technical Meeting of the
         Combustion Institute, Park City, UT, May 2013.
 
-\item[] \textbf{ B.W. Weber}, S.S. Merchant, C.J. Sung, and W.H. Green.
+\item[] \textbf{B.W. Weber}, S.S. Merchant, C.J. Sung, and W.H. Green.
         \textit{An Autoignition Study of iso-Butanol: Experiments and
         Modeling.} Paper 3A01, \ordinalnum{8} US National Technical
         Meeting of the Combustion Institute, Park City, UT, May 2013.
@@ -145,32 +155,32 @@ combustion analysis
 \item[] S.M. Sarathy, S. Park, W. Wang, P. Veloo, A.C. Davis,
         C. Togbé, \textbf{B.W. Weber}, C.K. Westbrook, O. Park,
         G. Dayma, Z. Luo, M.A. Oehlschlaeger, F. Egolfopoulos, T. Lu,
-        W.J. Pitz, C.J. Sung, P. Dagaut. \textit{A Comprehensive
+        W.J. Pitz, C.J. Sung, and P. Dagaut. \textit{A Comprehensive
         Experimental and Modeling Study of iso-Pentanol Combustion.}
         Paper 2A12, \ordinalnum{8} US National Technical Meeting of the
         Combustion Institute, Park City, UT, May 2013.
 
-\item[] \textbf{ B.W. Weber} and C.J. Sung. \textit{Comparative
+\item[] \textbf{B.W. Weber} and C.J. Sung. \textit{Comparative
         Investigation of the High Pressure Autoignition of the Butanol
         Isomers.} Paper A-01, Fall Technical Meeting of the Eastern
         States Section of the Combustion Institute, Storrs, CT, October
         2011.
 
 \item[] M.R. Harper, W.H. Green (Presenting), K.M. Van Geem,
-        \textbf{ B.W. Weber}, C.J. Sung, I. Stranic, D.F. Davidson,
-        R.K. Hanson. \textit{Combustion of the butanol isomers:
+        \textbf{B.W. Weber}, C.J. Sung, I. Stranic, D.F. Davidson,
+        and R.K. Hanson. \textit{Combustion of the butanol isomers:
         Reaction pathways at elevated pressures from low-to-high 
         temperatures.} Paper \#84, \ordinalnum{7} International 
         Conference on Chemical Kinetics, Massachusetts Institute of 
         Technology, Cambridge, MA, July 2011.
 
-\item[] \textbf{ B.W. Weber} and C.J. Sung. \textit{A Rapid Compression
+\item[] \textbf{B.W. Weber} and C.J. Sung. \textit{A Rapid Compression
         Study of the Butanol Isomers at Elevated Pressure.} Paper 1B13,
         \ordinalnum{7}  US National Technical Meeting of the Combustion
         Institute, Georgia Institute of Technology, Atlanta, GA, March
         2011.
 
-\item[] \textbf{ B.W. Weber}, K. Kumar, and C.J. Sung.
+\item[] \textbf{B.W. Weber}, K. Kumar, and C.J. Sung.
         \textit{Autoignition of Butanol Isomers at Low to Intermediate
         Temperature and Elevated Pressure.} Paper AIAA-2011-0316,
         \ordinalnum{49}  Annual Aerospace Sciences Meeting, 
@@ -180,20 +190,20 @@ combustion analysis
 \section{Conference Posters}
 
 \begin{bibsection}
-\item[] \textbf{ B.W. Weber} and C.J. Sung. \textit{Validation of
+\item[] \textbf{B.W. Weber} and C.J. Sung. \textit{Validation of
         Kinetic Models of the Butanol Isomers At High Pressure 
         using a Rapid Compression Machine.} Poster T40, 
         \ordinalnum{7} International Conference on Chemical Kinetics,
          Massachusetts Institute of Technology, Cambridge, MA,
          July 2011.
 
-\item[] \textbf{ B.W. Weber}. \textit{Autoignition of n-Butanol at
+\item[] \textbf{B.W. Weber}. \textit{Autoignition of n-Butanol at
         Elevated Pressure and Low to Intermediate Temperature.} 
         \ordinalnum{1} Combustion Energy Frontier Research Center
         Annual Meeting, Princeton University, Princeton, NJ, 
         September 2010.
 
-\item[] \textbf{ B.W. Weber}, K. Kumar, and C.J. Sung. \textit{An
+\item[] \textbf{B.W. Weber}, K. Kumar, and C.J. Sung. \textit{An
         Investigation of Hydrocarbon Flames using Probe Sampling and
         Gas Chromatography/Mass Spectrometry.} Support of Undergraduate
         Research and Creative Endeavors Symposium and Poster Session,
@@ -258,13 +268,14 @@ Case Western Reserve University, Cleveland, OH, USA
         \begin{innerlist}
             \item Assisted the preparation and delivery of lecture 
                   material covering: Thermochemistry and Equilibrium, 
-                  Chemical Kinetics, Fuels, and Emissions, and Reacting 
+                  Chemical Kinetics, Fuels and Emissions, and Reacting 
                   Flows
             \item Developed and presented lectures covering the
                   fundamentals and operation of combustion modeling 
                   software
             \item Designed in-depth projects to explore combustion 
-                  modeling using the CHEMKIN--Pro software
+                  modeling using the \\ 
+                  CHEMKIN--Pro software
             \item[] Sample project assignments are available on request
         \end{innerlist}
 
