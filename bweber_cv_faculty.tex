@@ -1,5 +1,10 @@
 \input{preamble.tex}
-
+%
+%This document must be compiled with XeLaTeX. This means that any font
+%installed on the system can be used. Select the font here.
+%
+\setmainfont{Lucida Sans}
+\defaultfontfeatures{Mapping=tex-text}
 %%%%%%%%%%%%%%%%%%%%%%%%% Begin CV Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
@@ -13,9 +18,12 @@
 %             (adjust it to your liking; default is 1.85in).
 %         \ccolwidth is width of area between left and right boxes.
 %
-\newlength{\rcolwidth}\setlength{\rcolwidth}{2.5in}%
-\newlength{\ccolwidth}\setlength{\ccolwidth}{30pt}
-\newlength{\lcolwidth}\setlength{\lcolwidth}{\textwidth-\rcolwidth-\ccolwidth}
+\newlength{\rcolwidth}
+\setlength{\rcolwidth}{2.5in}%
+\newlength{\ccolwidth}
+\setlength{\ccolwidth}{30pt}
+\newlength{\lcolwidth}
+\setlength{\lcolwidth}{\textwidth-\rcolwidth-\ccolwidth}
 %
 % Address box
 \begin{varwidth}{\lcolwidth}%
@@ -39,7 +47,9 @@ Storrs, CT 06269 USA%
 \end{varwidth}%
 
 \section{Research Interests}
-{\bf Combustion Engineering:} Alternative biofuels including alcohols and biodiesel; design of novel experimental methods for combustion analysis
+\textbf{Combustion Engineering:} Alternative biofuels including
+alcohols and biodiesel; design of novel experimental methods for
+combustion analysis
 
 \section{Education}
 
@@ -48,13 +58,15 @@ Storrs, CT 06269 USA%
 
 \item[] Ph.D., Mechanical Engineering, Planned 2014
         \begin{innerlist}
-        \item[] Working Dissertation Title: \emph{High Pressure Ignition Chemistry of Alternative Fuels}
+        \item[] Working Dissertation Title: \textit{High Pressure
+                Ignition Chemistry of Alternative Fuels}
         \item[] Advisor: Professor Chih-Jen (Jackie) Sung
         \end{innerlist}
 
 \item[] M.S., Mechanical Engineering, August 2010
         \begin{innerlist}
-        \item[] Thesis Title: \emph{Autoignition of n-Butanol at Low to Intermediate Temperature and Elevated Pressure}
+        \item[] Thesis Title: \textit{Autoignition of n-Butanol at Low
+                to Intermediate Temperature and Elevated Pressure}
         \item[] Advisor: Professor Chih-Jen (Jackie) Sung
         \end{innerlist}
 
@@ -63,96 +75,141 @@ Storrs, CT 06269 USA%
 \textbf{Case Western Reserve University}, Cleveland, OH, USA
 \begin{outerlist}
 
-\item[] B.S., \emph{Cum Laude} Aerospace Engineering, May 2009
+\item[] B.S.E., \textit{Cum Laude} Aerospace Engineering, May 2009
         \begin{innerlist}
-        \item[] Senior Project Title: \emph{Analysis of Heavy Hydrocarbon Fuels using Gas Chromatography with Mass Spectrometry}
+        \item[] Senior Project Title: \textit{Analysis of Heavy
+                Hydrocarbon Fuels using Gas Chromatography with Mass
+                Spectrometry}
         \item[] Advisor: Professor Chih-Jen (Jackie) Sung
         \end{innerlist}
 
 \end{outerlist}
 
-% \section{Submitted Journal Publications}
-%
-% % Add a little space to nudge next ``Ref'd Journal Publications'' marginpar
-% % down to make room for tall ``Submitted Journal Publications''
-% % marginpar. If there are enough submitted journal publications, this
-% % space will not be needed (and should be removed).
-% \vspace{0.1in}
-
 \section{Journal Publications}
 
 \begin{bibsection}
-\item[] S.M. Sarathy, S. Park, \textbf{B.W. Weber}, W. Wang, P.S. Veloo, A.C. Davis, C. Togb\'{e}, C.K. Westbrook, O. Park, G. Dayma, Z. Luo, M.A. Oehlschlaeger, F.N. Egolfopoulos, T. Lu, W.J. Pitz, C.J. Sung, and P. Dagaut. \textit{A Comprehensive Experimental and Modeling Study of iso-Pentanol Combustion.} Combustion and Flame, Aug. 2013. \doi{10.1016/j.combustflame.2013.06.022}
-\item[] \textbf{ B.W. Weber} and C.J. Sung. {\em Comparative Autoignition Trends in Butanol Isomers at Elevated Pressure.} Energy and Fuels, vol. 27, no. 3, pp. 1688-1698, Feb. 2013. \doi{10.1021/ef302195c}
-\item[] T. Tsujimura, W.J. Pitz, F. Gillespie, H.J. Curran, \textbf{ B.W. Weber}, Y. Zhang, and C.J. Sung. \textit{Development of Isopentanol Reaction Mechanism Reproducing Autoignition Character at High and Low Temperatures.} Energy and Fuels, vol. 26, no. 8, pp. 4871-4886, Aug. 2012. \doi{10.1021/ef300879k}
-\item[] \textbf{ B.W. Weber}, K. Kumar, Y. Zhang, and C.J. Sung. \textit{Autoignition of n-butanol at elevated pressure and low-to-intermediate temperature.} Combustion and Flame, vol. 158, no. 5, pp. 809-819, Mar. 2011. \doi{10.1016/j.combustflame.2011.02.005}
+\item[] S.M. Sarathy, S. Park, \textbf{B.W. Weber}, W. Wang,
+        P.S. Veloo, A.C. Davis, C. Togbé, C.K. Westbrook, O. Park,
+        G. Dayma, Z. Luo, M.A. Oehlschlaeger, F.N. Egolfopoulos,
+        T. Lu, W.J. Pitz, C.J. Sung, and P. Dagaut. \textit{A 
+        Comprehensive Experimental and Modeling Study of iso-Pentanol 
+        Combustion.} Combustion and Flame, Aug. 2013.
+        \doi{10.1016/j.combustflame.2013.06.022}
+        
+\item[] \textbf{B.W. Weber} and C.J. Sung. \textit{Comparative
+        Autoignition Trends in Butanol Isomers at Elevated Pressure.}
+        Energy and Fuels, vol. 27, no. 3, pp. 1688-1698, Feb. 2013.
+        \doi{10.1021/ef302195c}
+        
+\item[] T. Tsujimura, W.J. Pitz, F. Gillespie, H.J. Curran,
+        \textbf{B.W. Weber}, Y. Zhang, and C.J. Sung.
+        \textit{Development of Isopentanol Reaction Mechanism
+        Reproducing Autoignition Character at High and Low
+        Temperatures.} Energy and Fuels, vol. 26, no. 8, pp. 4871-4886,
+        Aug. 2012. \doi{10.1021/ef300879k}
+        
+\item[] \textbf{B.W. Weber}, K. Kumar, Y. Zhang, and C.J. Sung.
+        \textit{Autoignition of n-butanol at elevated pressure and
+        low-to-intermediate temperature.} Combustion and Flame,
+        vol. 158, no. 5, pp. 809-819, Mar. 2011.
+        \doi{10.1016/j.combustflame.2011.02.005}
 \end{bibsection}
 
 % Add a little space to nudge next ``Conference Publications'' marginpar
 % down to make room for tall ``Submitted Conference Publications''
 % marginpar. If there are enough submitted journal publications, this
 % space will not be needed (and should be removed).
-\vspace{0.1in}
+%\vspace{0.1in}
 
-\section{Conference Papers and Presentations}
+\section{Conference Publications and Presentations}
 
 \begin{bibsection}
-\item[] S.S. Merchant (Presenting), W.H. Green, K.M. Van Geem, N. Hansen, \textbf{ B.W. Weber}, C.J. Sung. {\em Combustion of the Butanol Isomers: Reaction Pathways from High to Low Temperature.} \ordinalnum{8} International Conference on Chemical Kinetics, University Seville, Seville, Spain, July 2013.
+\item[] S.S. Merchant (Presenting), W.H. Green, K.M. Van Geem, N.
+        Hansen, \textbf{B.W. Weber}, C.J. Sung. \textit{Combustion of 
+        the Butanol Isomers: Reaction Pathways from High to Low
+        Temperature.} \ordinalnum{8} International Conference on
+        Chemical Kinetics, University Seville, Seville, Spain, July
+        2013.
 
-\item[] \textbf{ B.W. Weber}, W.J. Pitz, C.J. Sung, M. Mehl, E.J. Silke, A.C. Davis. \textit{Experiments and Modeling of the Autoignition of Methyl-Cyclohexane at High Pressure.} Paper 3A02, \ordinalnum{8} US National Technical Meeting of the Combustion Institute, Park City, UT, May 2013.
+\item[] \textbf{ B.W. Weber}, W.J. Pitz, C.J. Sung, M. Mehl,
+        E.J. Silke, A.C. Davis. \textit{Experiments and Modeling of the
+        Autoignition of Methyl-Cyclohexane at High Pressure.}
+        Paper 3A02, \ordinalnum{8} US National Technical Meeting of the
+        Combustion Institute, Park City, UT, May 2013.
 
-\item[] \textbf{ B.W. Weber}, S.S. Merchant, C.J. Sung, and W.H. Green. \textit{An Autoignition Study of iso-Butanol: Experiments and Modeling.} Paper 3A01, \ordinalnum{8} US National Technical Meeting of the Combustion Institute, Park City, UT, May 2013.
+\item[] \textbf{ B.W. Weber}, S.S. Merchant, C.J. Sung, and W.H. Green.
+        \textit{An Autoignition Study of iso-Butanol: Experiments and
+        Modeling.} Paper 3A01, \ordinalnum{8} US National Technical
+        Meeting of the Combustion Institute, Park City, UT, May 2013.
 
-\item[] S.M. Sarathy, S. Park, W. Wang, P. Veloo, A.C. Davis, C. Togb\'{e}, \textbf{ B.W. Weber}, C.K. Westbrook, O. Park, G. Dayma, Z. Luo, M.A. Oehlschlaeger, F. Egolfopoulos, T. Lu, W.J. Pitz, C.J. Sung, P. Dagaut. \textit{A Comprehensive Experimental and Modeling Study of iso-Pentanol Combustion.} Paper 2A12, \ordinalnum{8} US National Technical Meeting of the Combustion Institute, Park City, UT, May 2013.
+\item[] S.M. Sarathy, S. Park, W. Wang, P. Veloo, A.C. Davis,
+        C. Togbé, \textbf{B.W. Weber}, C.K. Westbrook, O. Park,
+        G. Dayma, Z. Luo, M.A. Oehlschlaeger, F. Egolfopoulos, T. Lu,
+        W.J. Pitz, C.J. Sung, P. Dagaut. \textit{A Comprehensive
+        Experimental and Modeling Study of iso-Pentanol Combustion.}
+        Paper 2A12, \ordinalnum{8} US National Technical Meeting of the
+        Combustion Institute, Park City, UT, May 2013.
 
-\item[] \textbf{ B.W. Weber} and C.J. Sung. \textit{Comparative Investigation of the High Pressure Autoignition of the Butanol Isomers.} Paper A-01, Fall Technical Meeting of the Eastern States Section of the Combustion Institute, Storrs, CT, October 2011.
+\item[] \textbf{ B.W. Weber} and C.J. Sung. \textit{Comparative
+        Investigation of the High Pressure Autoignition of the Butanol
+        Isomers.} Paper A-01, Fall Technical Meeting of the Eastern
+        States Section of the Combustion Institute, Storrs, CT, October
+        2011.
 
-\item[] M.R. Harper, W.H. Green (Presenting), K.M. Van Geem, \textbf{ B.W. Weber}, C.J. Sung, I. Stranic, D.F. Davidson,  R.K. Hanson. \textit{Combustion of the butanol isomers: Reaction pathways at elevated pressures from low-to-high temperatures.} Paper \#84, \ordinalnum{7} International Conference on Chemical Kinetics, Massachusetts Institute of Technology, Cambridge, MA, July 2011.
+\item[] M.R. Harper, W.H. Green (Presenting), K.M. Van Geem,
+        \textbf{ B.W. Weber}, C.J. Sung, I. Stranic, D.F. Davidson,
+        R.K. Hanson. \textit{Combustion of the butanol isomers:
+        Reaction pathways at elevated pressures from low-to-high 
+        temperatures.} Paper \#84, \ordinalnum{7} International 
+        Conference on Chemical Kinetics, Massachusetts Institute of 
+        Technology, Cambridge, MA, July 2011.
 
-\item[] \textbf{ B.W. Weber} and C.J. Sung. \textit{A Rapid Compression Study of the Butanol Isomers at Elevated Pressure.} Paper 1B13, \ordinalnum{7}  US National Technical Meeting of the Combustion Institute, Georgia Institute of Technology, Atlanta, GA, March 2011.
+\item[] \textbf{ B.W. Weber} and C.J. Sung. \textit{A Rapid Compression
+        Study of the Butanol Isomers at Elevated Pressure.} Paper 1B13,
+        \ordinalnum{7}  US National Technical Meeting of the Combustion
+        Institute, Georgia Institute of Technology, Atlanta, GA, March
+        2011.
 
-\item[] \textbf{ B.W. Weber}, K. Kumar, and C.J. Sung. \textit{Autoignition of Butanol Isomers at Low to Intermediate Temperature and Elevated Pressure.} Paper AIAA-2011-0316, \ordinalnum{49}  Annual Aerospace Sciences Meeting, Orlando, FL, January 2011.
+\item[] \textbf{ B.W. Weber}, K. Kumar, and C.J. Sung.
+        \textit{Autoignition of Butanol Isomers at Low to Intermediate
+        Temperature and Elevated Pressure.} Paper AIAA-2011-0316,
+        \ordinalnum{49}  Annual Aerospace Sciences Meeting, 
+        Orlando, FL, January 2011.
 \end{bibsection}
 
 \section{Conference Posters}
 
 \begin{bibsection}
-\item[] \textbf{ B.W. Weber} and C.J. Sung. \textit{Validation of Kinetic Models of the Butanol Isomers At High Pressure using a Rapid Compression Machine.} Poster T40, \ordinalnum{7} International Conference on Chemical Kinetics, Massachusetts Institute of Technology, Cambridge, MA, July 2011. \href{http://web.mit.edu/icck/documents.html}{Poster}
+\item[] \textbf{ B.W. Weber} and C.J. Sung. \textit{Validation of
+        Kinetic Models of the Butanol Isomers At High Pressure 
+        using a Rapid Compression Machine.} Poster T40, 
+        \ordinalnum{7} International Conference on Chemical Kinetics,
+         Massachusetts Institute of Technology, Cambridge, MA,
+         July 2011.
 
-\item[] \textbf{ B.W. Weber}. \textit{Autoignition of n-Butanol at Elevated Pressure and Low to Intermediate Temperature.} 1\textsuperscript{st} Combustion Energy Frontier Research Center Annual Meeting, Princeton University, Princeton, NJ, September 2010.
+\item[] \textbf{ B.W. Weber}. \textit{Autoignition of n-Butanol at
+        Elevated Pressure and Low to Intermediate Temperature.} 
+        \ordinalnum{1} Combustion Energy Frontier Research Center
+        Annual Meeting, Princeton University, Princeton, NJ, 
+        September 2010.
 
-\item[] \textbf{ B.W. Weber}, K. Kumar, and C.J. Sung. \textit{An Investigation of Hydrocarbon Flames using Probe Sampling and Gas Chromatography/Mass Spectrometry.} Support of Undergraduate Research and Creative Endeavors Symposium and Poster Session, Case Western Reserve University, Cleveland, OH, April 2009.
+\item[] \textbf{ B.W. Weber}, K. Kumar, and C.J. Sung. \textit{An
+        Investigation of Hydrocarbon Flames using Probe Sampling and
+        Gas Chromatography/Mass Spectrometry.} Support of Undergraduate
+        Research and Creative Endeavors Symposium and Poster Session,
+        Case Western Reserve University, Cleveland, OH, April 2009.
 \end{bibsection}
 
 \section{Other Presentations}
 
 \begin{bibsection}
-\item[] \textbf{ B.W. Weber} and C.J. Sung. \textit{Analysis of Hydrocarbon Fuels using Gas Chromatography/Mass Spectrometry.} Summer Undergraduate Research in Energy Sciences Program, Dominion Energy East Ohio Branch, Cleveland, OH, August 2008.
+\item[] \textbf{ B.W. Weber} and C.J. Sung. \textit{Analysis of
+        Hydrocarbon Fuels using Gas Chromatography/Mass Spectrometry.}
+        Summer Undergraduate Research in Energy Sciences Program,
+        Dominion Energy East Ohio Branch, Cleveland, OH, August 2008.
 \end{bibsection}
 
 \vspace{0.1in}
-
-\section{Teaching Experience}
-\textbf{University of Connecticut, Storrs, CT, USA} \hfill Fall 2012 - Spring 2013
-\begin{outerlist}
-    \item[] Spring 2013 -- Instructor for ENGR~1166: Introduction to Mechanical Engineering
-        \begin{innerlist}
-            \item Prepared and delivered lectures covering fundamental topics in Mechanical Engineering, including: Vector Math and Calculus, Statics, Dynamics, Solid Mechanics, Thermodynamics, Fluid Mechanics, and Heat Transfer
-            \item Prepared and graded weekly homework assignments for 60 \ordinalnum{2} semester engineering students
-            \item Held weekly office hour sessions
-            \item[] Lecture notes and sample homework problems are available on request
-        \end{innerlist}
-
-   \item[] Fall 2012 -- Teaching Assistant for ME~3239: Combustion for Energy Conversion
-        \begin{innerlist}
-            \item Assisted in the preparation of lectures
-            \item Developed intensive student projects using the CHEMKIN-Pro software \todo[inline]{Really need to update the description of the work for Jackie's class}
-            \item Graded approximately 20 \ordinalnum{7} semester students' projects
-            \item[] Sample project assignments are available on request
-        \end{innerlist}
-
-\end{outerlist}
-
 
 \section{Research Experience}
 
@@ -162,47 +219,101 @@ Case Western Reserve University, Cleveland, OH, USA
 \begin{outerlist}
 \item[] Projects:
    \begin{innerlist}
-   \item Experimentally and computationally studying the ignition properties of the butanol isomers over a wide pressure range
-   \item Designing a species sampling apparatus for time-resolved species measurements in the rapid compression machine
-   \item Experimentally investigating the autoignition of iso-pentanol in the rapid compression machine
-   \item Experimentally investigating the autoignition of methyl-cyclohexane in the rapid compression machine
-   \item Characterized the components of heavy hydrocarbon fuels, including conventional and synthetic jet fuels, using gas chromatography/mass spectrometry
+   \item Experimentally and computationally studying the ignition
+         properties of the butanol isomers, iso-pentanol, 
+         methyl-cyclohexane, and propene over a wide range of pressure,
+         temperature, and fuel-loading conditions
+   \item Designing a species sampling apparatus for time-resolved
+         species measurements in the rapid compression machine
+   \item Characterizing the components of heavy hydrocarbon fuels,
+         including conventional and synthetic jet fuels, using gas 
+         chromatography/mass spectrometry
    \end{innerlist}
+
+\end{outerlist}
+
+\section{Teaching Experience}
+\textbf{University of Connecticut, Storrs, CT, USA} \hfill Fall 2012 --
+                                                           Spring 2013
+\begin{outerlist}
+    \item[] Spring 2013 -- Instructor for ENGR~1166: Introduction to
+            Mechanical Engineering\\
+            Supervisor: Prof. Kevin Murphy
+        \begin{innerlist}
+            \item Prepared and delivered lectures covering fundamental
+                  topics in Mechanical Engineering, including: Vector
+                  Math and Calculus, Statics, Dynamics, Solid
+                  Mechanics, Thermodynamics, Fluid Mechanics, and Heat
+                  Transfer
+            \item Prepared and graded weekly homework assignments for
+                  60 \ordinalnum{2} semester engineering students
+            \item Held weekly office hour sessions
+            \item[] Lecture notes and sample homework problems are
+                    available on request
+        \end{innerlist}
+
+   \item[] Fall 2012 -- Teaching Assistant for ME~3239: Combustion for
+           Energy Conversion\\
+           Supervisor: Prof. Chih-Jen Sung
+        \begin{innerlist}
+            \item Assisted the preparation and delivery of lecture 
+                  material covering: Thermochemistry and Equilibrium, 
+                  Chemical Kinetics, Fuels, and Emissions, and Reacting 
+                  Flows
+            \item Developed and presented lectures covering the
+                  fundamentals and operation of combustion modeling 
+                  software
+            \item Designed in-depth projects to explore combustion 
+                  modeling using the CHEMKIN--Pro software
+            \item[] Sample project assignments are available on request
+        \end{innerlist}
 
 \end{outerlist}
 
 \section{Professional Experience}
-%\begin{outerlist}
-   \textbf{Combustion Energy Frontier Research Center} \hfill 2012-Present
+\begin{lonelist}
+   \item[] \textbf{Combustion Energy Frontier Research Center} \hfill 
+           2012-Present\\
+           \textbf{Co-chair, Junior Associates Committee}
    \begin{innerlist}
-      \item Co-chair, Junior Associates Committee
-      \item Duties include planning monthly teleconferences for junior members of the CEFRC, attending PI teleconferences on behalf of the junior members, etc. \todo[inline]{Update the duties in this position}
+      \item Coordinate monthly teleconferences for graduate students
+            and post-doctoral researchers in the CEFRC
+      \item Attend PI teleconferences on behalf of the junior members
+           of the CEFRC
+      \item Contributed to the Department of Energy EFRC newsletter
+            with the article 
+            \href{http://www.energyfrontier.us/newsletter/201210/burning-butanol-better-engine}
+            {"Burning Butanol in a Better Engine"}
    \end{innerlist}
-%\end{outerlist}
+\end{lonelist}
+ 
+\vspace{0.5em}
 
 \section{Awards and Fellowships}
-\textbf{\large University of Connecticut}
 
-\begin{outerlist}
-   \item \textbf{Department of Mechanical Engineering \hfill Spring 2013\\
-                 Graduate Predoctoral Fellowship Award}\\
-          First Place, awarded for the best research presentation and poster at the 2013 Mechanical Engineering Graduate Research Competition
-   \item \textbf{Graduate Assistantship in Areas of National Need \hfill Spring 2010}\\
-          Awarded in the area of Sustainable Energy Technologies
-\end{outerlist}
+\begin{lonelist}
+   \item[] \textbf{University of Connecticut, Department of Mechanical
+                   Engineering} \hfill 2013\\
+           \textbf{Graduate Predoctoral Fellowship Award}\\
+            First Place, awarded for the best research presentation and
+            poster at the 2013 Mechanical Engineering Graduate Research 
+            Competition
+   \item[] \textbf{University of Connecticut} \hfill 2010\\
+           \textbf{Graduate Assistantship in Areas of National Need}\\
+            Awarded in the area of Sustainable Energy Technologies
 
-\vspace{0.1in}
+   \item[] \textbf{Case Western Reserve University, Department of
+                   Mechanical} \hfill 2009\\
+           \textbf{and Aerospace Engineering, Fred H. Vose Prize}\\
+           Awarded to the senior showing the most promise for future 
+           leadership
 
-\textbf{\large Case Western Reserve University}
-
-\begin{outerlist}
-   \item \textbf{Fred H. Vose Prize \hfill Spring 2009}\\
-                 Awarded to the senior in Mechanical and Aerospace Engineering at Case Western Reserve University showing the most promise for future leadership
-
-   \item \textbf{Summer Undergraduate Research \hfill Summer 2008\\
-                 in Energy Sciences Grant}\\
-                 Awarded for research to analyze the composition of traditional petroleum-based hydrocarbon fuels using GC/MS
-\end{outerlist}
+   \item[] \textbf{Case Western Reserve University, Summer
+                   Undergraduate Research} \hfill 2008\\
+           \textbf{in Energy Sciences Grant}\\
+           Awarded for research to analyze the composition of 
+           traditional petroleum-based hydrocarbon fuels using GC/MS
+\end{lonelist}
 
 \section{Professional Memberships}
 AIAA - Student Member
@@ -226,7 +337,8 @@ Software Packages:
 \begin{innerlist}
     \item CHEMKIN-II and associated programs (SENKIN, etc.)
     \item CHEMKIN-Pro
-    \item Microsoft Office, \TeX{} (\LaTeX{}, \BibTeX{}), Google Docs
+    \item Microsoft Office, \TeX{} (\XeLaTeX{}, \LaTeX{}, \BibTeX{}),
+          Google Docs
     \item Solidworks 3D Modeling
 \end{innerlist}
 
