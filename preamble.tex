@@ -156,13 +156,13 @@
 \fancyfootoffset{\marginparsep+\marginparwidth}
 \newlength{\footpageshift}
 \setlength{\footpageshift}
-          {0.5\textwidth+0.5\marginparsep+0.5\marginparwidth-2in}
+          {\marginparsep+\marginparwidth}
 \lfoot{\hspace{\footpageshift}%
-       \parbox{\textwidth}{\line(1,0){381.2}\\%
+       \parbox{\textwidth}{\line(1,0){428.2}\\%
        \, \mydate\today \hfill%
 %                    \arabic{page} of \protect\pageref*{LastPage} % +LP
-                    Bryan W. Weber \quad \arabic{page} % -LP
-                    }}
+                    Bryan W. Weber \quad \arabic{page}% -LP
+                    }}%
 
 % Finally, give us PDF bookmarks
 \usepackage{color,hyperref}
