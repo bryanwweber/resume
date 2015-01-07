@@ -20,11 +20,14 @@
 % Don't like 10pt? Try 11pt or 12pt
 \documentclass[12pt,final]{article}
 \usepackage{fontspec}
-\usepackage{xltxtra}
-\usepackage[obeyFinal]{todonotes}
 \usepackage{varwidth}
 \usepackage{microtype}
-\usepackage{ragged2e}
+
+% Set the text to justified without hyphenation
+\tolerance=1
+\emergencystretch=\maxdimen
+\hyphenpenalty=10000
+\hbadness=10000
 
 % LaTeX will typeset using Computer Modern Roman, which a lot of
 % non-mathematicians and non-engineers won't like. Also, a few PDF
@@ -98,6 +101,9 @@
 % Provides special list environments and macros to create new ones
 \usepackage[shortlabels]{enumitem}
 
+% Allow reverse numbered lists
+\usepackage{etaremune}
+
 % Simpler bibsections for CV sections
 % (thanks to natbib for inspiration)
 %
@@ -135,6 +141,18 @@
         itemindent=-\bibhang,
         itemsep=\bibsep,parsep=\z@,partopsep=0pt,
         topsep=0pt}
+
+% Add a new environment for reversed numbered bibliography lists
+\newenvironment{bibmune}
+{\renewcommand\labelenumi{[\theenumi]}%
+\etaremune[
+ topsep=0pt,
+ itemsep=\bibsep,
+ parsep=0pt,partopsep=0pt,
+ itemindent=-\bibhang,
+ leftmargin={\bibhang+\widthof{[999]}}]}
+{\endetaremune}
+
 \let\oldendbibenum\endbibenum
 \def\endbibenum{\oldendbibenum\vspace{-.6\baselineskip}}
 \let\oldendbibsection\endbibsection
