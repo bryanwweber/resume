@@ -15,6 +15,11 @@
 \newfontface\head[Path=fonts/]{GenBkBasB.ttf}
 \newfontface\sectionfont[Path=fonts/,Scale=0.9]{PlayfairDisplaySC-Regular.ttf}
 
+\newcommand*{\org}[1]{\textit{#1}}
+\newcommand*{\position}[1]{\textbf{#1}}
+\newcommand*{\meauthor}[1]{\textbf{#1}}
+\newcommand*{\papertitle}[1]{\textit{#1}}
+
 %%%%%%%%%%%%%%%%%%%%%%%%% Begin CV Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
@@ -74,7 +79,7 @@ B.S.E., Aerospace Engineering, Case Western Reserve University, 2009
 
 \section{{\sectionfont Professional Experience}}
 
-Visiting Assistant Professor, University of Connecticut \hfill 2014--Present
+\position{Visiting Assistant Professor}, \org{University of Connecticut} \hfill 2014--Present
 
 \begin{innerlist}
 \item[] Conducting research on the combustion kinetics of alternative and traditional fuels.
@@ -84,8 +89,18 @@ Visiting Assistant Professor, University of Connecticut \hfill 2014--Present
 
 \vspace{\baselineskip}
 
-Graduate Research Assistant, University of Connecticut \hfill 2009--2014\\
-Undergraduate Research Assistant, Case Western Reserve University \hfill 2007--2009\\
+\position{Contributing developer}, \org{Cantera} \hfill 2014--Present
+
+\begin{innerlist}
+    \item Contributing source code to the open-source software toolkit for chemical kinetics, thermodynamics, and transport processes
+    \item Assisting users with usage of Cantera in the online support group
+    \item Contributions available on GitHub: \url{https://github.com/Cantera/cantera}
+\end{innerlist}
+
+\vspace{\baselineskip}
+
+\position{Graduate Research Assistant}, \org{University of Connecticut} \hfill 2009--2014\\
+\position{Undergraduate Research Assistant}, \org{Case Western Reserve University} \hfill 2007--2009\\
 \href{http://combdiaglab.engr.uconn.edu}{Combustion Diagnostics Laboratory} --- Director: C.-J.\ Sung
 
 \begin{innerlist}
@@ -104,13 +119,13 @@ the models to predict combustion events.
 \section{{\sectionfont Journal Publications}}
 
 \begin{bibmune}
-\item G.\ Kukkadapu, \textbf{B.W.\ Weber}, and C.J.\ Sung.
-      \textit{Autoignition study of tetralin in a rapid compression
+\item G.\ Kukkadapu, \meauthor{B.W.\ Weber}, and C.J.\ Sung.
+      \papertitle{Autoignition study of tetralin in a rapid compression
       machine at elevated pressures and low-to-intermediate temperatures.}
       Fuel, vol.\ 159, pp.\ 436--445, Nov.\ 2015.\\
       \doi{10.1016/j.fuel.2015.06.093}
 
-\item \textbf{B.W.\ Weber}, C.J.\ Sung, and M.W.\ Renfro. \textit{On
+\item \meauthor{B.W.\ Weber}, C.J.\ Sung, and M.W.\ Renfro. \papertitle{On
         the Uncertainty of Temperature Estimation in a Rapid
         Compression Machine.} Combustion and Flame, vol.\ 162,
         no.\ 6, pp.\ 2518--2528, Jun.\ 2015.
@@ -119,123 +134,117 @@ the models to predict combustion events.
 \item S.M.\ Burke, U.\ Burke, R.\ Mc Donagh, O.\ Mathieu, I.\ Osorio,
         C.\ Keesee, A.\ Morones, E.L.\ Petersen, W.\ Wang, T.A.\ DeVerter,
         M.A.\ Oehlschlaeger, B.\ Rhodes, R.K.\ Hanson, D.F.\ Davidson,
-        \textbf{B.W.\ Weber}, C.J.\ Sung, J.\ Santner, Y.\ Ju, F.M.\ Haas,
+        \meauthor{B.W.\ Weber}, C.J.\ Sung, J.\ Santner, Y.\ Ju, F.M.\ Haas,
         F.L.\ Dryer, E.N.\ Volkov, E.J.\ Nilsson, A.A.\ Konnov, M.\ Alrefae,
         F.\ Khaled, A.\ Farooq, P.\ Dirrenberger, P.A.\ Glaude,
-        F.\ Battin-Leclerc, and H.J.\ Curran.\ \textit{An Experimental and
+        F.\ Battin-Leclerc, and H.J.\ Curran.\ \papertitle{An Experimental and
         Modeling Study of Propene Oxidation. Part 2: Ignition Delay Time
         and Flame Speed Measurements.} Combustion and Flame, vol.\ 162, no.\ 2,
-        pp.\ 296--314, Feb.\ 2015. \\ \doi{10.1016/j.combustflame.2014.07.032}
+        pp.\ 296--314, Feb.\ 2015. \parbox{200pt}{\doi{10.1016/j.combustflame.2014.07.032}}
 
-\item \textbf{B.W.\ Weber}, W.J.\ Pitz, M.\ Mehl, A.C.\ Davis,
-        E.J.\ Silke, and C.J.\ Sung. \textit{Experiments and
+\item \meauthor{B.W.\ Weber}, W.J.\ Pitz, M.\ Mehl, A.C.\ Davis,
+        E.J.\ Silke, and C.J.\ Sung. \papertitle{Experiments and
         Modeling of the Autoignition of Methylcyclohexane at High
         Pressure.} Combustion and Flame, vol.\ 161, no.\ 8, pp.\
         1972--1983, Aug.\ 2014.
         \doi{10.1016/j.combustflame.2014.01.018}
 
-\item S.M.\ Sarathy, S.\ Park, \textbf{B.W.\ Weber}, W.\ Wang,
+\item S.M.\ Sarathy, S.\ Park, \meauthor{B.W.\ Weber}, W.\ Wang,
         P.S.\ Veloo, A.C.\ Davis, C.\ Togbé, C.K.\ Westbrook, O.\ Park,
         G.\ Dayma, Z.\ Luo, M.A.\ Oehlschlaeger, F.N.\ Egolfopoulos,
-        T.\ Lu, W.J.\ Pitz, C.J.\ Sung, and P.\ Dagaut. \textit{A
+        T.\ Lu, W.J.\ Pitz, C.J.\ Sung, and P.\ Dagaut. \papertitle{A
         Comprehensive Experimental and Modeling Study of iso-Pentanol
         Combustion.} Combustion and Flame, vol.\ 160, no.\ 12, pp.\
         2712--2728, Dec.\ 2013. \doi{10.1016/j.combustflame.2013.06.022}
 
-\item \textbf{B.W.\ Weber} and C.J.\ Sung. \textit{Comparative
+\item \meauthor{B.W.\ Weber} and C.J.\ Sung. \papertitle{Comparative
         Autoignition Trends in Butanol Isomers at Elevated Pressure.}
         Energy and Fuels, vol.\ 27, no.\ 3, pp.\ 1688--1698, Mar.\ 2013. \\
         \doi{10.1021/ef302195c}
 
 \item T.\ Tsujimura, W.J.\ Pitz, F.\ Gillespie, H.J.\ Curran,
-        \textbf{B.W.\ Weber}, Y.\ Zhang, and C.J.\ Sung.
-        \textit{Development of Isopentanol Reaction Mechanism
+        \meauthor{B.W.\ Weber}, Y.\ Zhang, and C.J.\ Sung.
+        \papertitle{Development of Isopentanol Reaction Mechanism
         Reproducing Autoignition Character at High and Low
         Temperatures.} Energy and Fuels, vol.\ 26, no.\ 8, pp.\ 4871--4886,
         Aug.\ 2012. \doi{10.1021/ef300879k}
 
-\item \textbf{B.W.\ Weber}, K.\ Kumar, Y.\ Zhang, and C.J.\ Sung.
-        \textit{Autoignition of n-butanol at elevated pressure and
+\item \meauthor{B.W.\ Weber}, K.\ Kumar, Y.\ Zhang, and C.J.\ Sung.
+        \papertitle{Autoignition of n-butanol at elevated pressure and
         low-to-intermediate temperature.} Combustion and Flame,
-        vol.\ 158, no.\ 5, pp.\ 809--819, Mar.\ 2011.
+        vol.\ 158, no.\ 5, pp.\ 809--819, Mar.\ 2011.\\
         \doi{10.1016/j.combustflame.2011.02.005}
 \end{bibmune}
-
-% Add a little space to nudge next ``Conference Publications'' marginpar
-% down to make room for tall ``Submitted Conference Publications''
-% marginpar. If there are enough submitted journal publications, this
-% space will not be needed (and should be removed).
-%\vspace{0.1in}
 
 \section{{\sectionfont Conference Publications and Presentations}}
 
 \begin{bibmune}
-\item G. Kukkadapu (Presenting), \textbf{B.W. Weber}, and C.J. Sung. \textit{Autoignition study
+\item G. Kukkadapu (Presenting), \meauthor{B.W. Weber}, and C.J. Sung. \papertitle{Autoignition study
         of tetralin in a rapid compression machines at elevated
         pressures and low-to-intermediate temperatures.}
         Paper 1G05, \ordinalnum{9} US National Technical Meeting of the
         Combustion Institute, Cincinnati, OH, May 2015.
 
-\item K. Kumar (Presenting), J. Bunnell, \textbf{B.W. Weber}, and C.J. Sung.
-        \textit{Autoignition of methyl-propanoate
+\item K. Kumar (Presenting), J. Bunnell, \meauthor{B.W. Weber}, and C.J. Sung.
+        \papertitle{Autoignition of methyl-propanoate
         and a comparison with its selected ester homologs.}
         Paper 1G07, \ordinalnum{9} US National Technical Meeting of the
         Combustion Institute, Cincinnati, OH, May 2015.
 
-\item E.E. Dames (Presenting), \textbf{B.W. Weber}, A. Rosen, C.W. Gao, C.J. Sung,
-        and W.H. Green. \textit{Towards a comprehensive DME/propane blended
+\item E.E. Dames (Presenting), \meauthor{B.W. Weber}, A. Rosen, C.W. Gao, C.J. Sung,
+        and W.H. Green. \papertitle{Towards a comprehensive DME/propane blended
         combustion kinetic model.}
         Paper 2F16, \ordinalnum{9} US National Technical Meeting of the
         Combustion Institute, Cincinnati, OH, May 2015.
 
 \item S.S.\ Merchant (Presenting), W.H.\ Green, K.M.\ Van Geem, N.
-        Hansen, \textbf{B.W.\ Weber}, and C.J.\ Sung.
-        \textit{Combustion of the Butanol Isomers: Reaction Pathways
+        Hansen, \meauthor{B.W.\ Weber}, and C.J.\ Sung.
+        \papertitle{Combustion of the Butanol Isomers: Reaction Pathways
         from High to Low Temperature.} \ordinalnum{8} International
         Conference on Chemical Kinetics, University Seville, Seville,
         Spain, Jul.\ 2013.
 
-\item \textbf{B.W.\ Weber}, W.J.\ Pitz, C.J.\ Sung, M.\ Mehl,
-        E.J.\ Silke, and A.C.\ Davis. \textit{Experiments and Modeling of
+\item \meauthor{B.W.\ Weber}, W.J.\ Pitz, C.J.\ Sung, M.\ Mehl,
+        E.J.\ Silke, and A.C.\ Davis. \papertitle{Experiments and Modeling of
         the Autoignition of Methyl-Cyclohexane at High Pressure.}
         Paper 3A02, \ordinalnum{8} US National Technical Meeting of the
         Combustion Institute, Park City, UT, May 2013.
 
-\item \textbf{B.W.\ Weber}, S.S.\ Merchant, C.J.\ Sung, and W.H.\ Green.
-        \textit{An Autoignition Study of iso-Butanol: Experiments and
+\item \meauthor{B.W.\ Weber}, S.S.\ Merchant, C.J.\ Sung, and W.H.\ Green.
+        \papertitle{An Autoignition Study of iso-Butanol: Experiments and
         Modeling.} Paper 3A01, \ordinalnum{8} US National Technical
         Meeting of the Combustion Institute, Park City, UT, May 2013.
 
 \item S.M.\ Sarathy, S.\ Park, W.\ Wang, P.\ Veloo, A.C.\ Davis,
-        C.\ Togbé, \textbf{B.W.\ Weber}, C.K.\ Westbrook, O.\ Park,
+        C.\ Togbé, \meauthor{B.W.\ Weber}, C.K.\ Westbrook, O.\ Park,
         G.\ Dayma, Z.\ Luo, M.A.\ Oehlschlaeger, F.\ Egolfopoulos, T.\ Lu,
-        W.J.\ Pitz, C.J.\ Sung, and P.\ Dagaut. \textit{A Comprehensive
+        W.J.\ Pitz, C.J.\ Sung, and P.\ Dagaut. \papertitle{A Comprehensive
         Experimental and Modeling Study of iso-Pentanol Combustion.}
         Paper 2A12, \ordinalnum{8} US National Technical Meeting of the
         Combustion Institute, Park City, UT, May 2013.
 
-\item \textbf{B.W.\ Weber} and C.J.\ Sung. \textit{Comparative
+\item \meauthor{B.W.\ Weber} and C.J.\ Sung. \papertitle{Comparative
         Investigation of the High Pressure Autoignition of the Butanol
         Isomers.} Paper A-01, Fall Technical Meeting of the Eastern
         States Section of the Combustion Institute, Storrs, CT, Oct.\
         2011.
 
 \item M.R.\ Harper, W.H.\ Green (Presenting), K.M.\ Van Geem,
-        \textbf{B.W.\ Weber}, C.J.\ Sung, I.\ Stranic, D.F.\ Davidson,
-        and R.K.\ Hanson. \textit{Combustion of the butanol isomers:
+        \meauthor{B.W.\ Weber}, C.J.\ Sung, I.\ Stranic, D.F.\ Davidson,
+        and R.K.\ Hanson. \papertitle{Combustion of the butanol isomers:
         Reaction pathways at elevated pressures from low-to-high
         temperatures.} Paper \#84, \ordinalnum{7} International
         Conference on Chemical Kinetics, Massachusetts Institute of
         Technology, Cambridge, MA, Jul.\ 2011.
 
-\item \textbf{B.W.\ Weber} and C.J.\ Sung. \textit{A Rapid Compression
+\item \meauthor{B.W.\ Weber} and C.J.\ Sung. \papertitle{A Rapid Compression
         Study of the Butanol Isomers at Elevated Pressure.} Paper 1B13,
         \ordinalnum{7}  US National Technical Meeting of the Combustion
         Institute, Georgia Institute of Technology, Atlanta, GA, Mar.\
         2011.
 
-\item \textbf{B.W.\ Weber}, K.\ Kumar, and C.J.\ Sung.
-        \textit{Autoignition of Butanol Isomers at Low to Intermediate
+\item \meauthor{B.W.\ Weber}, K.\ Kumar, and C.J.\ Sung.
+        \papertitle{Autoignition of Butanol Isomers at Low to Intermediate
         Temperature and Elevated Pressure.} Paper AIAA-2011-0316,
         \ordinalnum{49}  Annual Aerospace Sciences Meeting,
         Orlando, FL, Jan.\ 2011.
@@ -244,20 +253,20 @@ the models to predict combustion events.
 \section{{\sectionfont Conference Posters}}
 
 \begin{bibmune}
-\item \textbf{B.W.\ Weber} and C.J.\ Sung. \textit{Validation of
+\item \meauthor{B.W.\ Weber} and C.J.\ Sung. \papertitle{Validation of
         Kinetic Models of the Butanol Isomers At High Pressure
         using a Rapid Compression Machine.} Poster T40,
         \ordinalnum{7} International Conference on Chemical Kinetics,
          Massachusetts Institute of Technology, Cambridge, MA,
          Jul.\ 2011.
 
-\item \textbf{B.W.\ Weber}. \textit{Autoignition of n-Butanol at
+\item \meauthor{B.W.\ Weber}. \papertitle{Autoignition of n-Butanol at
         Elevated Pressure and Low to Intermediate Temperature.}
         \ordinalnum{1} Combustion Energy Frontier Research Center
         Annual Meeting, Princeton University, Princeton, NJ,
         Sep.\ 2010.
 
-\item \textbf{B.W.\ Weber}, K.\ Kumar, and C.J.\ Sung. \textit{An
+\item \meauthor{B.W.\ Weber}, K.\ Kumar, and C.J.\ Sung. \papertitle{An
         Investigation of Hydrocarbon Flames using Probe Sampling and
         Gas Chromatography/Mass Spectrometry.} Support of Undergraduate
         Research and Creative Endeavors Symposium and Poster Session,
@@ -267,7 +276,7 @@ the models to predict combustion events.
 \section{{\sectionfont Other Presentations}}
 
 \begin{bibmune}
-\item \textbf{ B.W.\ Weber} and C.J.\ Sung. \textit{Analysis of
+\item \meauthor{ B.W.\ Weber} and C.J.\ Sung. \papertitle{Analysis of
         Hydrocarbon Fuels using Gas Chromatography/Mass Spectrometry.}
         Summer Undergraduate Research in Energy Sciences Program,
         Dominion Energy East Ohio Branch, Cleveland, OH, Aug.\ 2008.
@@ -277,39 +286,71 @@ the models to predict combustion events.
 
 \section{{\sectionfont Teaching Experience}}
 
-\textbf{University of Connecticut, Storrs, CT, USA}
+\org{University of Connecticut, Storrs, CT, USA}
 
-\vspace{\baselineskip}
-Fluid Dynamics 1
+\vspace{0.25\baselineskip}
 
-Thermodynamic Principles
+\position{Visiting Assistant Professor}
+\begin{outerlist}
+\item Applied Thermodynamics (scheduled) \hfill Spring 2016
 
-Senior Capstone Design Project Mentor
+\item Fluid Dynamics 1 \hfill Fall 2015
 
-Introduction to Mechanical Engineering (Instructor)
+\item Thermodynamic Principles \hfill Fall 2014, 2015; Spring 2015
 
-Combustion for Energy Conversion (Teaching Assistant)
+\item Senior Capstone Design Project Mentor \hfill 2014--2015, 2015--2016
+
+\item Senior Design Project \hfill Fall 2014, Spring 2015, 2016
+\begin{innerlist}
+    \item Assisted the primary instructor with administration of the course
+    \item Conducted design review meetings with student teams
+    \item Evaluated student presentations
+\end{innerlist}
+
+\end{outerlist}
+
+\vspace{0.5\baselineskip}
+
+\position{Instructor}
+\begin{outerlist}
+\item Introduction to Mechanical Engineering \hfill Spring 2012
+\begin{innerlist}
+    \item Awarded Graduate Teaching Fellowship to participate in this course
+    \item Team-taught, multidisciplinary survey course required for all second semester Mechanical Engineering students
+\end{innerlist}
+\end{outerlist}
+
+\vspace{0.5\baselineskip}
+
+\position{Teaching Assistant}
+\begin{outerlist}
+\item Combustion for Energy Conversion \hfill Fall 2012
+\begin{innerlist}
+    \item Presented lecture materials for $\sim$40 upper-level undergraduate students when supervising professor was on travel
+    \item Developed and presented four lectures on the fundamentals of combustion modeling and the use of the combustion modeling software
+    \item Developed and graded four student projects covering topics of equilibrium, homogeneous reactors, molecular transport, and non-premixed combustion
+\end{innerlist}
+\end{outerlist}
 
 \section{{\sectionfont Professional Service}}
 
-Combustion Energy Frontier Research Center (CEFRC) \hfill 2012--2014\\
-Lead Chair, Junior Associates Committee
+\begin{lonelist}
+\item[] \org{Combustion Energy Frontier Research Center (CEFRC)} \hfill 2012--2014\\
+\position{Lead Chair, Junior Associates Committee}
 
 \begin{innerlist}
-\item[] Coordinate monthly teleconferences for graduate students
+\item Coordinate monthly teleconferences for graduate students
 and post-doctoral researchers in the CEFRC where junior members of
 the CEFRC present recent research results to the group.
-\item[] Act as the liaison between the Center's principal investigators
+\item Act as the liaison between the Center's principal investigators
 and the junior members.
 \end{innerlist}
 
-\vspace{\baselineskip}
-
-U.S.\ Department of Energy \hfill 2013--2014\\
-Member, EFRC Newsletter Editorial Board
+\item[] \org{U.S.\ Department of Energy} \hfill 2013--2014\\
+\position{Member, EFRC Newsletter Editorial Board}
 
 \begin{innerlist}
-\item[] Contribute articles to the Energy Frontier Research Centers (EFRC)
+\item Contribute articles to the Energy Frontier Research Centers (EFRC)
 newsletter describing recent scientific advances resulting from
 EFRC research, including:\\
 \hspace*{0.25in}\href{http://www.energyfrontier.us/newsletter/201210/burning-butanol-better-engine}
@@ -318,22 +359,20 @@ EFRC research, including:\\
 {``The Advantage of Renewable Fuels in High-Efficiency Engines''}\\
 \hspace*{0.25in}\href{http://www.energyfrontier.us/newsletter/201404/confined-catalysts-last-longer}
 {``Confined Catalysts Last Longer''}
-\item[] Edit articles written by other board members for factual and grammatical correctness.
+\item Edit articles written by other board members for factual and grammatical correctness.
 \end{innerlist}
 
-\vspace{2.0\baselineskip}
-
-Journal Referee
+\item[] Journal Referee
    \begin{innerlist}
-       \item[] Energy \& Fuels
-       \item[] Proceedings of the Combustion Institute
-       \item[] Combustion Science \& Technology
-       \item[] Industrial \& Engineering Chemistry Research
-       \item[] Society of Automotive Engineers World Congress
-       \item[] Measurement
+       \item Energy \& Fuels
+       \item Proceedings of the Combustion Institute
+       \item Combustion Science \& Technology
+       \item Industrial \& Engineering Chemistry Research
+       \item Society of Automotive Engineers World Congress
+       \item Measurement
    \end{innerlist}
 
-\vspace{0.5em}
+\end{lonelist}
 
 \section{{\sectionfont Awards and Fellowships}}
 
@@ -354,13 +393,13 @@ Summer Undergraduate Research in Energy Sciences
 Grant, Case Western Reserve University, 2008
 
 \section{{\sectionfont Professional Memberships}}
+American Chemical Society - Member
+
 American Institute of Aeronautics and Astronautics - Member
 
 American Society of Mechanical Engineers - Member
 
 The Combustion Institute - Member
-
-American Chemical Society - Member
 
 \end{document}
 
