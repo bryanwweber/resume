@@ -334,13 +334,16 @@
 
 %%% FORMATTING MACROS
 
-% Provides a linked \doi{#1} that links doi:#1 to http://dx.doi.org/#1
-\usepackage{doi}
-% To change the text before the DOI, adjust this command
-%\renewcommand\doitext{doi:}
-
 % Provides a linked \url{#1} that doesn't require escape characters
 \usepackage{url}
+
+\RequirePackage{academicons}
+\RequirePackage{fontawesome}
+\newcommand{\iconspace}{\enspace}
+\newcommand{\arxiv}[1]{\aiarXiv\iconspace arxiv:\href{https://arxiv.org/abs/#1}{#1}}
+\newcommand{\doi}[1]{\aiDoi\iconspace doi:\href{https://doi.org/#1}{#1}}
+\newcommand{\figshare}[1]{\aiFigshare\iconspace figshare:\href{https://doi.org/#1}{#1}}
+\newcommand{\refurl}[1]{\faGlobe\iconspace\url{#1}}
 
 % You can adjust the style \url{} uses here:
 % (options are: same, rm, sf, tt; defaults to tt)
