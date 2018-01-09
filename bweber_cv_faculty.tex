@@ -1,6 +1,7 @@
 % !TEX program = xelatex
 \input{preamble}
 \usepackage{makecell}
+\usepackage{longtable}
 \renewcommand\cellalign{lt}
 %%%%%%%%%%%%%%%%%%%%%%%%% Begin CV Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -52,26 +53,90 @@ M.S., Mechanical Engineering, University of Connecticut, 2010
 
 B.S.E., Aerospace Engineering, Case Western Reserve University, 2009
 
+\section{{\sectionfont Teaching Experience}}
+
+\org{University of Connecticut, Storrs, CT, USA}
+
+\vspace{0.25\baselineskip}
+
+\position{Assistant Professor in Residence}, \org{University of Connecticut} \hfill 2016--Present\\
+\position{Visiting Assistant Professor}, \org{University of Connecticut} \hfill 2014--2016
+
+\vspace{\baselineskip}
+
+Three-time recipient of University of Connecticut Provost's Teaching Commendation (Spring 2016, Fall 2016, Spring 2017)
+
+\vspace{0.5\baselineskip}
+
+Courses Taught:
+
+\begin{outerlist}
+\item ME 2233: Thermodynamic Principles \hfill Undergraduate, Major-required/Elective
+\begin{innerlist}
+    \item Fall 2017: 140 students (1 regular section, 1 honors section)
+    \item Summer 2017: 15 students (1 regular section)
+    \item Fall 2016: 76 students (1 regular section, 1 honors section)
+    \item Spring 2016: 76 students (1 regular section)
+    \item Fall 2015: 178 students (2 regular sections, 1 honors section)
+    \item Spring 2015: 36 students (1 regular section)
+    \item Fall 2014: 93 students (1 regular section, 1 honors section)
+\end{innerlist}
+
+\item ME2234: Applied Thermodynamics \hfill Undergraduate, Major-required
+\begin{innerlist}
+    \item Spring 2018: 98 students (1 regular section, 1 honors section)
+    \item Spring 2017: 160 students (2 regular sections, 1 honors section)
+    \item Spring 2016: 129 students (2 regular sections, 1 honors section)
+\end{innerlist}
+
+\item ME 3239: Combustion for Energy Conversion \hfill Undergraduate, Elective
+\begin{innerlist}
+    \item Fall 2016: 49 students (1 regular section, 4 honors conversions)
+\end{innerlist}
+
+\item ME 3250: Fluid Dynamics 1 \hfill Undergraduate, Major-required
+\begin{innerlist}
+    \item Fall 2017: 81 students (1 section, 9 honors conversions)
+    \item Fall 2015: 60 students (1 section)
+\end{innerlist}
+
+\item ME 3251: Fluid Dynamics 2 \hfill Undergraduate, Elective
+\begin{innerlist}
+    \item Spring 2018: 60 students (1 section)
+\end{innerlist}
+
+\item ME 4972/4973W: Senior Capstone Design Project Co-Instructor/Team Mentor \hfill 2014--2018
+\begin{innerlist}
+    \item Mentoring up to 4 teams per year of 2-4 students working on an industrially-sponsored capstone design project
+    \item Giving lectures for the class of up to 162 students on technical presentations, data analysis, and data visualization
+    \item Reviewing up to 33 team oral presentations twice per semester
+\end{innerlist}
+
+\item Independent Study Advisor \hfill Spring 2017
+\begin{innerlist}
+    \item Conducted feasibility study of alternative user interfaces for Cantera
+    \item Initiated development of new \textsc{MATLAB} user interface for Cantera
+\end{innerlist}
+
+\item Undergraduate Research Advisor
+\begin{innerlist}
+    \item Supervised 5 students conducting research (Summer 2017: 2, Fall 2017: 3), including a \ordinalnum{12}-grade student at E.O. Smith High School
+    \item Projects included Cantera and PyKED user interface development, data analysis for ChemKED, and development of new PyKED features
+\end{innerlist}
+
+\end{outerlist}
+
 \section{{\sectionfont Professional Experience}}
 
 \position{Assistant Professor in Residence}, \org{University of Connecticut} \hfill 2016--Present\\
 \position{Visiting Assistant Professor}, \org{University of Connecticut} \hfill 2014--2016
 
 \begin{innerlist}
-    \item Conducting research on the combustion kinetics of alternative and traditional fuels
-    \item Developing tools to improve reproducibility in experimental works
     \item Teaching undergraduate courses in thermal-fluids engineering
+    \item Developing open-source tools to enhance student engagement and learning
     \item Mentoring undergraduate students in the capstone design project
-\end{innerlist}
-
-\vspace{\baselineskip}
-
-\position{Lead Developer}, \org{UConnRCMPy} \hfill 2015--Present
-
-\begin{innerlist}
-    \item Developing an open-source data analysis package for rapid compression machine experiments to encourage and improve reproducibility in experimental works
-    \item Collaborating with other researchers to improve and extend the package
-    \item Code is available on GitHub: \url{https://github.com/bryanwweber/UConnRCMPy}
+    \item Conducting research on the combustion kinetics of alternative and traditional fuels
+    \item Developing open-source tools to improve reproducibility in experimental work
 \end{innerlist}
 
 \vspace{\baselineskip}
@@ -92,6 +157,16 @@ B.S.E., Aerospace Engineering, Case Western Reserve University, 2009
     \item Implemented a Python interface to the ChemKED database format for chemical kinetics experiments
     \item Collaborating with other researchers to define the database format, project governance, and community standards
     \item Code is available on GitHub: \url{https://github.com/pr-omethe-us/PyKED}
+\end{innerlist}
+
+\vspace{\baselineskip}
+
+\position{Lead Developer}, \org{UConnRCMPy} \hfill 2015--Present
+
+\begin{innerlist}
+    \item Developing an open-source data analysis package for rapid compression machine experiments to encourage and improve reproducibility in experimental works
+    \item Collaborating with other researchers to improve and extend the package
+    \item Code is available on GitHub: \url{https://github.com/bryanwweber/UConnRCMPy}
 \end{innerlist}
 
 \vspace{\baselineskip}
@@ -123,59 +198,46 @@ B.S.E., Aerospace Engineering, Case Western Reserve University, 2009
     the models to predict combustion events.
 \end{innerlist}
 
-\section{{\sectionfont Teaching Experience}}
+\section{{\sectionfont Grants, Awards, and Fellowships}}
+\vspace{-0.3in}
+\begin{center}
+\begin{longtable}{lcl}
+2018-06-01--2018-06-30 & --- & \makecell{``Integration of Software-Based Problem Solving in \\
+Thermodynamics Instruction'' \\ University of Connecticut Provost Mini-Grant \\ Funding: \$5,000, PI} \\
+2017-01-01--2017-05-31 & --- & \makecell{``Measurement of Chemical Pathways During\\Autoignition at High Pressure'' \\ NASA Connecticut Space Grant Consortium \\ Funding: \$20,000, PI} \\
+2014-01-21--2014-05-02 & --- & \makecell{``High Pressure Ignition Chemistry of Alternative\\Fuels'' \\
+University of Connecticut Doctoral Dissertation\\Fellowship \\
+Funding: \$2,000} \\
+2013-04-01--2013-05-01 & --- & \makecell{``Experiments and Detailed Modeling of Butanol\\Ignition'' \\
+Department of Mechanical Engineering Graduate\\Predoctoral Fellowship \\
+Funding: \$2,000} \\
+2013-01-22--2013-05-03 & --- & \makecell{Graduate Teaching Fellowship \\
+Department of Mechanical Engineering\\University of Connecticut} \\
+2010-01-06--2010-05-22 & --- & \makecell{``Assessing the Feasibility of Substituting Biofuels\\for Conventional Hydrocarbon Fuels'' \\
+University of Connecticut GAANN Fellowship\\in Sustainable Energy Technologies \\
+Funding: \$7,599} \\
+2009-05-16 & --- & \makecell{Fred H. Vose Prize \\
+Department of Mechanical and Aerospace Engineering\\Case Western Reserve University} \\
+2008-06-01--2008-08-31 & --- & \makecell{``Investigation of Hydrocarbon Flame Structure\\using Probe Sampling and GC/MS'' \\
+Case Western Reserve University Summer\\Undergraduate Research in Energy Sciences Grant \\
+Funding: \$3,500}
+\end{longtable}
+\end{center}
 
-\org{University of Connecticut, Storrs, CT, USA}
+\vspace{-0.6in}
 
-\vspace{0.25\baselineskip}
+\section{{\sectionfont Professional Service}}
 
-\position{Assistant Professor in Residence}
+\begin{lonelist}
+\item[] \org{Mechanical Engineering Department, University of Connecticut} \hfill 2017--Present\\
+\position{Member, ABET Planning Committee}
 
-Three-time recipient of Provost's Teaching Commendation
-\begin{outerlist}
-\item Applied Thermodynamics \hfill Spring 2016--2018
-\item Combustion for Energy Conversion \hfill Fall 2016
-% \begin{innerlist}
-%     \item Core course in ME
-% \end{innerlist}
-
-\item Fluid Dynamics 1 \hfill Fall 2015, 2017
-% \begin{innerlist}
-%     \item Fundamentals of fluid statics, fluid kinematics, potential flow, viscous flow, integral and differential control volume analysis, and dimensional analysis
-%     \item Integrated multi-media content into lecture
-%     \item Core course in Mechanical Engineering; 60 third-year undergraduate students
-% \end{innerlist}
-
-\item Fluid Dynamics 2 (Compressible Flow) \hfill Spring 2018
-
-\item Senior Capstone Design Project Lecturer/Mentor \hfill 2014--2018
-% \begin{innerlist}
-%     \item Supervised 5 teams of 2--3 students each in completing capstone design projects
-%     \item Complemented the mentorship from industrial sponsors
-%     \item Projects included topics in fluid/thermal systems, mechanical design, and mechanics
-% \end{innerlist}
-
-\item Thermodynamic Principles \hfill Fall 2014--2017; Spring 2015--2016; Summer 2017
-% \begin{innerlist}
-%     \item Taught up to 100 undergraduate students per section from Mechanical, Civil, Biomedical, and Manufacturing Engineering
-%     \item Core course in Mechanical \& other engineering
-%     \item Focused on engineering problem solving techniques, including engineering models and logical progression
-%     \item Covered First and Second Laws, property evaluation, and nature of entropy
-%     \item Developed projects involving reports on the generation of property tables, the history of thermodynamics, the importance of cycles, the relation of thermodynamics to other subjects including biology and medicine
-%     \item Evaluated highly, averaging 4.0/5.0 in median overall rating on student evaluations over all semesters
-%     \item Students commented they found the lectures very helpful and that discussion of examples helped with understanding
-%     \item Supervised 6 teaching assistants
-%     \item Integrated student participation into lecture via clicker questions
-% \end{innerlist}
-
-% \item Senior Design Project \hfill Fall 2014, Spring 2015, 2016
-% \begin{innerlist}
-%     \item Assisted the primary instructor with administration of the course
-%     \item Conducted design review meetings with student teams
-%     \item Evaluated student presentations
-% \end{innerlist}
-
-\end{outerlist}
+\begin{innerlist}
+    \item Planning for 2019 ABET Accreditation visit
+    \item Developing tests to evaluate student pre- and post-course learning objective retention
+    \item Collecting course materials to demonstrate student outcomes
+\end{innerlist}
+\end{lonelist}
 
 \section{{\sectionfont Journal Publications}}
 
@@ -270,31 +332,7 @@ Three-time recipient of Provost's Teaching Commendation
         \arxiv{1706.00867}
 \end{bibmune}
 
-\section{{\sectionfont Grants, Awards, and Fellowships}}
-\vspace{-0.32in}
-\begin{center}
-\begin{tabular}{lcl}
-2018-06-01--2018-06-30 & --- & \makecell{``Integration of Software-Based Problem Solving in \\
-Thermodynamics Instruction'' \\ University of Connecticut Provost Mini-Grant \\ Funding: \$5,000, PI} \\
-2017-01-01--2017-05-31 & --- & \makecell{``Measurement of Chemical Pathways During\\Autoignition at High Pressure'' \\ NASA Connecticut Space Grant Consortium \\ Funding: \$20,000, PI} \\
-2014-01-21--2014-05-02 & --- & \makecell{``High Pressure Ignition Chemistry of Alternative\\Fuels'' \\
-University of Connecticut Doctoral Dissertation\\Fellowship \\
-Funding: \$2,000} \\
-2013-04-01--2013-05-01 & --- & \makecell{``Experiments and Detailed Modeling of Butanol\\Ignition'' \\
-Department of Mechanical Engineering Graduate\\Predoctoral Fellowship \\
-Funding: \$2,000} \\
-2013-01-22--2013-05-03 & --- & \makecell{Graduate Teaching Fellowship \\
-Department of Mechanical Engineering\\University of Connecticut} \\
-2010-01-06--2010-05-22 & --- & \makecell{``Assessing the Feasibility of Substituting Biofuels\\for Conventional Hydrocarbon Fuels'' \\
-University of Connecticut GAANN Fellowship\\in Sustainable Energy Technologies \\
-Funding: \$7,599} \\
-2009-05-16 & --- & \makecell{Fred H. Vose Prize \\
-Department of Mechanical and Aerospace Engineering\\Case Western Reserve University} \\
-2008-06-01--2008-08-31 & --- & \makecell{``Investigation of Hydrocarbon Flame Structure\\using Probe Sampling and GC/MS'' \\
-Case Western Reserve University Summer\\Undergraduate Research in Energy Sciences Grant \\
-Funding: \$3,500}
-\end{tabular}
-\end{center}
+\newpage
 
 \section{{\sectionfont Conference Publications and Presentations}}
 
@@ -469,9 +507,7 @@ Funding: \$3,500}
         \figshare{10.6084/m9.figshare.5098933}
 \end{bibmune}
 
-\vspace{0.1in}
-
-\section{{\sectionfont Professional Service}}
+\section{{\sectionfont Other Service}}
 
 \begin{lonelist}
 \item[] \org{Combustion Energy Frontier Research Center (CEFRC)} \hfill 2012--2014\\
@@ -484,8 +520,6 @@ the CEFRC present recent research results to the group.
 \item Act as the liaison between the Center's principal investigators
 and the junior members.
 \end{innerlist}
-
-\newpage
 
 \item[] \org{U.S.\ Department of Energy} \hfill 2013--2014\\
 \position{Member, EFRC Newsletter Editorial Board}
