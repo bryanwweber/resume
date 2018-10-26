@@ -1,6 +1,7 @@
 % !TEX program = lualatex
 \input{preamble}
 \usepackage{makecell}
+\usepackage{longtable}
 \renewcommand\cellalign{lt}
 %%%%%%%%%%%%%%%%%%%%%%%%% Begin CV Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -52,89 +53,19 @@ M.S., Mechanical Engineering, University of Connecticut, 2010
 
 B.S.E., Aerospace Engineering, Case Western Reserve University, 2009
 
-\section{{\sectionfont{} Professional Experience}}
-
-\position{Assistant Professor in Residence}, \org{University of Connecticut} \hfill 2016--Present\\
-\position{Visiting Assistant Professor}, \org{University of Connecticut} \hfill 2014--2016
-
-\begin{innerlist}
-    \item Conducting research on the combustion kinetics of alternative and traditional fuels
-    \item Developing tools to improve reproducibility in experimental works
-    \item Teaching undergraduate courses in thermal-fluids engineering
-    \item Mentoring undergraduate students in the capstone design project
-\end{innerlist}
-
-\vspace{\baselineskip}
-
-\position{Lead Developer}, \org{UConnRCMPy} \hfill 2015--Present
-
-\begin{innerlist}
-    \item Developing an open-source data analysis package for rapid compression machine experiments to encourage and improve reproducibility in experimental works
-    \item Collaborating with other researchers to improve and extend the package
-    \item Code is available on GitHub: \url{https://github.com/bryanwweber/UConnRCMPy}
-\end{innerlist}
-
-\vspace{\baselineskip}
-
-\position{Lead Developer}, \org{ThermoState} \hfill 2016--Present
-
-\begin{innerlist}
-    \item Developing an open-source package to evaluate thermodynamic properties of common materials
-    \item Used in several undergraduate Thermodynamics courses, with strong student approval
-    \item Code is available on GitHub: \url{https://github.com/bryanwweber/thermostate}
-\end{innerlist}
-
-\vspace{\baselineskip}
-
-\position{Co-Lead Developer}, \org{PyKED} \hfill 2016--Present
-
-\begin{innerlist}
-    \item Implemented a Python interface to the ChemKED database format for chemical kinetics experiments
-    \item Collaborating with other researchers to define the database format, project governance, and community standards
-    \item Code is available on GitHub: \url{https://github.com/pr-omethe-us/PyKED}
-\end{innerlist}
-
-\vspace{\baselineskip}
-
-\position{Contributing Developer}, \org{Cantera} \hfill 2013--Present
-
-\begin{innerlist}
-    \item Contributing source code to the open-source software toolkit for chemical kinetics, thermodynamics, and transport processes
-    \item Organized 5 workshops for Cantera users and developers
-    % \item Assisting users with usage of Cantera in the online support group
-    \item Code is available on GitHub: \url{https://github.com/Cantera/cantera}
-\end{innerlist}
-
-\vspace{\baselineskip}
-
-\position{Graduate Research Assistant}, \org{University of Connecticut} \hfill 2009--2014\\
-\position{Undergraduate Research Assistant}, \org{Case Western Reserve University} \hfill 2007--2009\\
-\href{http://combdiaglab.engr.uconn.edu}{Combustion Diagnostics Laboratory} --- Director: C.J.\ Sung
-
-\begin{innerlist}
-    \item Conducted experimental and computational studies of the ignition
-    properties of several alternative fuels and foundational fuels, with
-    a focus on engine-relevant conditions.
-    \item Designed a species sampling apparatus for time-resolved
-    species measurements in the rapid compression machine, using gas
-    chromatography/mass spectrometry to identify and quantify
-    combustion intermediates.
-    \item Analyzed kinetic models of combustion to determine the parameters
-    controlling prediction of ignition delay and to improve the ability of
-    the models to predict combustion events.
-\end{innerlist}
-
 \section{{\sectionfont{} Teaching Experience}}
 
-\org{University of Connecticut, Storrs, CT, USA}
+\org{University of Connecticut, Storrs, CT, USA} \hfill 2014--Present
 
 \vspace{0.25\baselineskip}
 
 \position{Assistant Professor in Residence}
 
-Four-time recipient of Provost's Teaching Commendation
+Four-time recipient of the University of Connecticut Provost's Teaching Commendation. \\
+Typical enrollment in the courses listed below is 60--100 students per section.
 \begin{outerlist}
-\item Applied Thermodynamics \hfill Spring 2016--2018
+\item Applied Mechanical Engineering Laboratory \hfill Spring 2019
+\item Applied Thermodynamics \hfill Spring 2016--2019
 \item Combustion for Energy Conversion \hfill Fall 2016
 % \begin{innerlist}
 %     \item Core course in ME
@@ -149,7 +80,7 @@ Four-time recipient of Provost's Teaching Commendation
 
 \item Fluid Dynamics 2 (Compressible Flow) \hfill Spring 2018
 
-\item Senior Capstone Design Project Lecturer/Mentor \hfill 2014--2018
+\item Senior Capstone Design Project Lecturer/Mentor \hfill 2014--2019
 % \begin{innerlist}
 %     \item Supervised 5 teams of 2--3 students each in completing capstone design projects
 %     \item Complemented the mentorship from industrial sponsors
@@ -178,9 +109,123 @@ Four-time recipient of Provost's Teaching Commendation
 
 \end{outerlist}
 
+\section{{\sectionfont{} Professional Experience}}
+
+\position{Assistant Professor in Residence}, \org{University of Connecticut} \hfill 2016--Present\\
+\position{Visiting Assistant Professor}, \org{University of Connecticut} \hfill 2014--2016
+
+\begin{innerlist}
+    \item Teaching undergraduate courses in thermal-fluids engineering
+    \item Developing tools to promote higher-level learning in undergraduate courses
+    \item Mentoring undergraduate students in the capstone design project
+    \item Conducting research on the combustion kinetics of alternative and traditional fuels
+    \item Developing tools to improve reproducibility in experimental works
+\end{innerlist}
+
+\vspace{\baselineskip}
+
+\position{Lead Developer}, \org{ThermoState} \hfill 2016--Present
+
+\begin{innerlist}
+    \item Developing an open-source package to evaluate thermodynamic properties of simple compressible systems
+    \item Used in several undergraduate Thermodynamics courses at UConn, with strong student approval
+    \item Published in the Journal of Open Source Education \doi{10.21105/jose.00033}
+    \item Code is available on GitHub under a permissive open-source license: \url{https://github.com/bryanwweber/thermostate}
+\end{innerlist}
+
+% \vspace{\baselineskip}
+\newpage
+
+\position{Co-Lead Developer}, \org{Cantera} \hfill 2013--Present\\
+\position{Senior Member, Cantera Steering Committee} \hfill 2018--Present
+
+\begin{innerlist}
+    \item Contributing source code to the open-source software toolkit for chemical kinetics, thermodynamics, and transport processes
+    \item Organized 7 workshops for Cantera users and developers
+    \item Establishing roadmap for Cantera development, including objectives related to technical features and community engagement
+    % \item Assisting users with usage of Cantera in the online support group
+    \item Code is available on GitHub: \url{https://github.com/Cantera/cantera}
+\end{innerlist}
+
+\vspace{\baselineskip}
+
+\position{Co-Lead Developer}, \org{PyKED} \hfill 2016--Present
+
+\begin{innerlist}
+    \item Implemented a Python interface to the ChemKED database format for chemical kinetics experiments
+    \item Collaborating with other researchers to define the database format, project governance, and community standards
+    \item Code is available on GitHub: \url{https://github.com/pr-omethe-us/PyKED}
+\end{innerlist}
+
+\vspace{\baselineskip}
+
+\position{Lead Developer}, \org{UConnRCMPy} \hfill 2015--Present
+
+\begin{innerlist}
+    \item Developing an open-source data analysis package for rapid compression machine experiments to encourage and improve reproducibility in experimental works
+    \item Collaborating with other researchers to improve and extend the package
+    \item Code is available on GitHub: \url{https://github.com/bryanwweber/UConnRCMPy}
+\end{innerlist}
+
+\vspace{\baselineskip}
+
+\position{Graduate Research Assistant}, \org{University of Connecticut} \hfill 2009--2014\\
+\position{Undergraduate Research Assistant}, \org{Case Western Reserve University} \hfill 2007--2009\\
+\href{http://combdiaglab.engr.uconn.edu}{Combustion Diagnostics Laboratory} --- Director: C.J.\ Sung
+
+\begin{innerlist}
+    \item Conducted experimental and computational studies of the ignition
+    properties of several alternative fuels and foundational fuels, with
+    a focus on engine-relevant conditions.
+    \item Designed a species sampling apparatus for time-resolved
+    species measurements in the rapid compression machine, using gas
+    chromatography/mass spectrometry to identify and quantify
+    combustion intermediates.
+    \item Analyzed kinetic models of combustion to determine the parameters
+    controlling prediction of ignition delay and to improve the ability of
+    the models to predict combustion events.
+\end{innerlist}
+
+\section{{\sectionfont Grants, Awards, and Fellowships}}
+\vspace{-0.32in}
+\begin{center}
+\begin{longtable}{lcl}
+2018-06-01--2018-06-30 & --- & \makecell{``Integration of Software-Based Problem Solving in \\
+Thermodynamics Instruction'' \\ University of Connecticut Provost Mini-Grant \\ Funding: \$5,000, PI} \\
+2017-01-01--2017-05-31 & --- & \makecell{``Measurement of Chemical Pathways During\\Autoignition at High Pressure'' \\ NASA Connecticut Space Grant Consortium \\ Funding: \$20,000, PI} \\
+2014-01-21--2014-05-02 & --- & \makecell{``High Pressure Ignition Chemistry of Alternative\\Fuels'' \\
+University of Connecticut Doctoral Dissertation\\Fellowship \\
+Funding: \$2,000} \\
+2013-04-01--2013-05-01 & --- & \makecell{``Experiments and Detailed Modeling of Butanol\\Ignition'' \\
+Department of Mechanical Engineering Graduate\\Predoctoral Fellowship \\
+Funding: \$2,000} \\
+2013-01-22--2013-05-03 & --- & \makecell{Graduate Teaching Fellowship \\
+Department of Mechanical Engineering\\University of Connecticut} \\
+2010-01-06--2010-05-22 & --- & \makecell{``Assessing the Feasibility of Substituting Biofuels\\for Conventional Hydrocarbon Fuels'' \\
+University of Connecticut GAANN Fellowship\\in Sustainable Energy Technologies \\
+Funding: \$7,599} \\
+2009-05-16 & --- & \makecell{Fred H. Vose Prize \\
+Department of Mechanical and Aerospace Engineering\\Case Western Reserve University} \\
+2008-06-01--2008-08-31 & --- & \makecell{``Investigation of Hydrocarbon Flame Structure\\using Probe Sampling and GC/MS'' \\
+Case Western Reserve University Summer\\Undergraduate Research in Energy Sciences Grant \\
+Funding: \$3,500}
+\end{longtable}
+\end{center}
+
 \section{{\sectionfont Journal Publications}}
 
 \begin{bibmune}
+\item H.\ Wang, R.\ Fang. \meauthor{B.W.\ Weber}, and C.J.\ Sung. \papertitle{
+      An experimental and modeling study of dimethyl ether/methanol blends
+      autoignition at low temperature}. Combustion and Flame, vol.\ 198,
+      pp.\ 88--99, Dec.\ 2018.
+      \doi{10.1016/j.combustflame.2018.09.012}
+
+\item \meauthor{B.W.\ Weber}. \papertitle{ThermoState: A state manager for thermodynamics
+      courses}. Journal of Open Source Education, vol.\ 1, no.\ 8, pp.\ 33,
+      Oct.\ 2018.
+      \doi{10.21105/jose.00033}
+
 \item \meauthor{B.W.\ Weber} and K.E.\ Niemeyer. \papertitle{ChemKED:
       a human- and machine-readable data standard for chemical kinetics
       experiments.} International Journal of Chemical Kinetics, vol.\ 50, no.\ 3, pp.\ 135--148, Mar.\ 2018.\\
@@ -271,32 +316,6 @@ Four-time recipient of Provost's Teaching Commendation
         \doi{10.1016/j.combustflame.2011.02.005}\\
         \arxiv{1706.00867}
 \end{bibmune}
-
-\section{{\sectionfont Grants, Awards, and Fellowships}}
-\vspace{-0.32in}
-\begin{center}
-\begin{tabular}{lcl}
-2018-06-01--2018-06-30 & --- & \makecell{``Integration of Software-Based Problem Solving in \\
-Thermodynamics Instruction'' \\ University of Connecticut Provost Mini-Grant \\ Funding: \$5,000, PI} \\
-2017-01-01--2017-05-31 & --- & \makecell{``Measurement of Chemical Pathways During\\Autoignition at High Pressure'' \\ NASA Connecticut Space Grant Consortium \\ Funding: \$20,000, PI} \\
-2014-01-21--2014-05-02 & --- & \makecell{``High Pressure Ignition Chemistry of Alternative\\Fuels'' \\
-University of Connecticut Doctoral Dissertation\\Fellowship \\
-Funding: \$2,000} \\
-2013-04-01--2013-05-01 & --- & \makecell{``Experiments and Detailed Modeling of Butanol\\Ignition'' \\
-Department of Mechanical Engineering Graduate\\Predoctoral Fellowship \\
-Funding: \$2,000} \\
-2013-01-22--2013-05-03 & --- & \makecell{Graduate Teaching Fellowship \\
-Department of Mechanical Engineering\\University of Connecticut} \\
-2010-01-06--2010-05-22 & --- & \makecell{``Assessing the Feasibility of Substituting Biofuels\\for Conventional Hydrocarbon Fuels'' \\
-University of Connecticut GAANN Fellowship\\in Sustainable Energy Technologies \\
-Funding: \$7,599} \\
-2009-05-16 & --- & \makecell{Fred H. Vose Prize \\
-Department of Mechanical and Aerospace Engineering\\Case Western Reserve University} \\
-2008-06-01--2008-08-31 & --- & \makecell{``Investigation of Hydrocarbon Flame Structure\\using Probe Sampling and GC/MS'' \\
-Case Western Reserve University Summer\\Undergraduate Research in Energy Sciences Grant \\
-Funding: \$3,500}
-\end{tabular}
-\end{center}
 
 \section{{\sectionfont Conference Publications and Presentations}}
 
