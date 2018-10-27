@@ -24,26 +24,24 @@
 %
 % Address box
 \begin{varwidth}{\lcolwidth}%
-Department of Mechanical Engineering\\
-University of Connecticut\\
-191 Auditorium Road U-3139\\
-Storrs, CT 06269 USA%
-\end{varwidth}%
-\hfill
-%Vertical rule separating address from other contact info.
-\begin{varwidth}{\ccolwidth}
-\rule{0.5pt}{4\baselineskip} %Comment this line to remove the line.
-\end{varwidth}%
-\hfill
-% Non-snail-mail contact information
-\begin{varwidth}{\rcolwidth}%
 \begin{tabular}{cl}
 \faicon{envelope} & \email{bryan.w.weber@gmail.com} \\
-\faicon{phone} & +1-860-486-8043 \\
 \faicon{mobile} & +1-412-443-6447 \\
 \faicon{globe} & \href{https://bryanwweber.com}{bryanwweber.com}
 \end{tabular}
 \end{varwidth}%
+% \hfill
+% %Vertical rule separating address from other contact info.
+% \begin{varwidth}{\ccolwidth}
+% % \rule{0.5pt}{2\baselineskip} %Comment this line to remove the line.
+% \end{varwidth}%
+% \hfill
+% Non-snail-mail contact information
+% \begin{varwidth}{\rcolwidth}%
+% \begin{tabular}{cl}
+% \faicon{linkedin} & \href{https://www.linkedin.com/in/bryanwweber/}{bryanwweber}
+% \end{tabular}
+% \end{varwidth}%
 
 \section{{\sectionfont{} Education}}
 
@@ -57,11 +55,14 @@ B.S.E., Aerospace Engineering, Case Western Reserve University, 2009
 
 \org{University of Connecticut, Storrs, CT, USA} \hfill 2014--Present
 
-\vspace{0.25\baselineskip}
+\textbf{Awards:}
 
-\position{Assistant Professor in Residence}
-
-Four-time recipient of the University of Connecticut Provost's Teaching Commendation. \\
+\begin{innerlist}
+    \item Four-time recipient of the University of Connecticut Provost's Teaching Commendation, awarded to faculty for excellence on their end-of-semester teaching evaluations
+    \item Two-time elected Commencement Marshal for Mechanical Engineering by the senior-class students
+    \item Nominated for the 2018 University Teaching Innovation Award by the Mechanical Engineering Department Chair
+\end{innerlist}
+\vspace{0.5\baselineskip}
 Typical enrollment in the courses listed below is 60--100 students per section.
 \begin{outerlist}
 \item Applied Mechanical Engineering Laboratory \hfill Spring 2019
@@ -115,34 +116,37 @@ Typical enrollment in the courses listed below is 60--100 students per section.
 \position{Visiting Assistant Professor}, \org{University of Connecticut} \hfill 2014--2016
 
 \begin{innerlist}
-    \item Teaching undergraduate courses in thermal-fluids engineering
-    \item Developing tools to promote higher-level learning in undergraduate courses
-    \item Mentoring undergraduate students in the capstone design project
-    \item Conducting research on the combustion kinetics of alternative and traditional fuels
-    \item Developing tools to improve reproducibility in experimental works
-\end{innerlist}
-
-\vspace{\baselineskip}
-
-\position{Lead Developer}, \org{ThermoState} \hfill 2016--Present
-
-\begin{innerlist}
-    \item Developing an open-source package to evaluate thermodynamic properties of simple compressible systems
-    \item Used in several undergraduate Thermodynamics courses at UConn, with strong student approval
-    \item Published in the Journal of Open Source Education \doi{10.21105/jose.00033}
-    \item Code is available on GitHub under a permissive open-source license: \url{https://github.com/bryanwweber/thermostate}
+    \item Teaching 3 undergraduate courses per semester in thermal-fluids engineering
+    \item Integrating and developing open-source software tools to promote higher-level learning outcomes in undergraduate courses
+    \item Mentoring undergraduate student teams during their industrially-sponsored capstone design project
+    \item Mentoring graduate and undergraduate TAs in grading and tutoring
+    \item Conducting research with undergraduate and high-school students to develop software for combustion kinetics
+    \item Developing open-source software tools for combustion and chemical kinetic analysis
 \end{innerlist}
 
 % \vspace{\baselineskip}
 \newpage
 
+\position{Lead Developer}, \org{ThermoState} \hfill 2016--Present
+
+\begin{innerlist}
+    \item Developing an open-source package to evaluate thermodynamic properties of simple compressible systems
+    \item Used in 6 undergraduate Thermodynamics courses at the University of Connecticut, with strong student approval
+    \item Published in the Journal of Open Source Education doi: \href{https://doi.org/10.21105/jose.00033}{https://doi.org/10.21105/jose.00033}
+    \item Code is available on GitHub under a permissive open-source license: \url{https://github.com/bryanwweber/thermostate}
+\end{innerlist}
+
+\vspace{\baselineskip}
+% \newpage
+
 \position{Co-Lead Developer}, \org{Cantera} \hfill 2013--Present\\
-\position{Senior Member, Cantera Steering Committee} \hfill 2018--Present
+\position{Member, Cantera Steering Committee} \hfill 2018--Present
 
 \begin{innerlist}
     \item Contributing source code to the open-source software toolkit for chemical kinetics, thermodynamics, and transport processes
-    \item Organized 7 workshops for Cantera users and developers
-    \item Establishing roadmap for Cantera development, including objectives related to technical features and community engagement
+    \item Organized 4 workshops for approximately 200 Cantera users at regional and national meetings of the Combustion Institute
+    \item Organized 3 annual workshops for 10 Cantera developers
+    \item Awarded \$3,000 NumFOCUS Small Development Grant to redesign the Cantera website at \url{https://cantera.org}
     % \item Assisting users with usage of Cantera in the online support group
     \item Code is available on GitHub: \url{https://github.com/Cantera/cantera}
 \end{innerlist}
@@ -153,19 +157,20 @@ Typical enrollment in the courses listed below is 60--100 students per section.
 
 \begin{innerlist}
     \item Implemented a Python interface to the ChemKED database format for chemical kinetics experiments
-    \item Collaborating with other researchers to define the database format, project governance, and community standards
+    \item Collaborating with researchers from Oregon State University, Columbia University, Trinity University Dublin, and Argonne National Laboratory, among others, to define the database format, project governance, and community standards
+    \item Used as the data standard for an exerimental characterization initiative involving more than 15 international universities
     \item Code is available on GitHub: \url{https://github.com/pr-omethe-us/PyKED}
 \end{innerlist}
 
-\vspace{\baselineskip}
+% \vspace{\baselineskip}
 
-\position{Lead Developer}, \org{UConnRCMPy} \hfill 2015--Present
+% \position{Lead Developer}, \org{UConnRCMPy} \hfill 2015--Present
 
-\begin{innerlist}
-    \item Developing an open-source data analysis package for rapid compression machine experiments to encourage and improve reproducibility in experimental works
-    \item Collaborating with other researchers to improve and extend the package
-    \item Code is available on GitHub: \url{https://github.com/bryanwweber/UConnRCMPy}
-\end{innerlist}
+% \begin{innerlist}
+%     \item Developing an open-source data analysis package for rapid compression machine experiments to encourage and improve reproducibility in experimental works
+%     \item Collaborating with other researchers to improve and extend the package
+%     \item Code is available on GitHub: \url{https://github.com/bryanwweber/UConnRCMPy}
+% \end{innerlist}
 
 \vspace{\baselineskip}
 
@@ -176,40 +181,44 @@ Typical enrollment in the courses listed below is 60--100 students per section.
 \begin{innerlist}
     \item Conducted experimental and computational studies of the ignition
     properties of several alternative fuels and foundational fuels, with
-    a focus on engine-relevant conditions.
+    a focus on engine-relevant conditions
     \item Designed a species sampling apparatus for time-resolved
     species measurements in the rapid compression machine, using gas
     chromatography/mass spectrometry to identify and quantify
-    combustion intermediates.
+    combustion intermediates
     \item Analyzed kinetic models of combustion to determine the parameters
     controlling prediction of ignition delay and to improve the ability of
-    the models to predict combustion events.
+    the models to predict combustion events
 \end{innerlist}
 
 \section{{\sectionfont Grants, Awards, and Fellowships}}
 \vspace{-0.32in}
 \begin{center}
-\begin{longtable}{lcl}
-2018-06-01--2018-06-30 & --- & \makecell{``Integration of Software-Based Problem Solving in \\
+\begin{tabular}{lcl}
+2018-07-01 -- 2018-07-31 & --- & \makecell{``Modernize, Reorganize, and Update Cantera's \\
+Documentation'' \\ NumFOCUS Small Development Grant \\ Funding: \$3,000, Co-PI} \\
+2018-06-01 -- 2018-06-30 & --- & \makecell{``Integration of Software-Based Problem Solving in \\
 Thermodynamics Instruction'' \\ University of Connecticut Provost Mini-Grant \\ Funding: \$5,000, PI} \\
-2017-01-01--2017-05-31 & --- & \makecell{``Measurement of Chemical Pathways During\\Autoignition at High Pressure'' \\ NASA Connecticut Space Grant Consortium \\ Funding: \$20,000, PI} \\
-2014-01-21--2014-05-02 & --- & \makecell{``High Pressure Ignition Chemistry of Alternative\\Fuels'' \\
+2018-01-01 -- 2018-05-05 & --- & \makecell{``Integrating KEEN E-Learning Module: Resolving\\
+Ethical Issues'' \\ University of New Haven/KEEN Mini-Grant \\ Funding: \$2,000, PI} \\
+2017-01-01 -- 2017-05-31 & --- & \makecell{``Measurement of Chemical Pathways During\\Autoignition at High Pressure'' \\ NASA Connecticut Space Grant Consortium \\ Funding: \$20,000, PI} \\
+2014-01-21 -- 2014-05-02 & --- & \makecell{``High Pressure Ignition Chemistry of Alternative\\Fuels'' \\
 University of Connecticut Doctoral Dissertation\\Fellowship \\
 Funding: \$2,000} \\
-2013-04-01--2013-05-01 & --- & \makecell{``Experiments and Detailed Modeling of Butanol\\Ignition'' \\
+2013-04-01 -- 2013-05-01 & --- & \makecell{``Experiments and Detailed Modeling of Butanol\\Ignition'' \\
 Department of Mechanical Engineering Graduate\\Predoctoral Fellowship \\
 Funding: \$2,000} \\
-2013-01-22--2013-05-03 & --- & \makecell{Graduate Teaching Fellowship \\
+2013-01-22 -- 2013-05-03 & --- & \makecell{Graduate Teaching Fellowship \\
 Department of Mechanical Engineering\\University of Connecticut} \\
-2010-01-06--2010-05-22 & --- & \makecell{``Assessing the Feasibility of Substituting Biofuels\\for Conventional Hydrocarbon Fuels'' \\
+2010-01-06 -- 2010-05-22 & --- & \makecell{``Assessing the Feasibility of Substituting Biofuels\\for Conventional Hydrocarbon Fuels'' \\
 University of Connecticut GAANN Fellowship\\in Sustainable Energy Technologies \\
 Funding: \$7,599} \\
 2009-05-16 & --- & \makecell{Fred H. Vose Prize \\
 Department of Mechanical and Aerospace Engineering\\Case Western Reserve University} \\
-2008-06-01--2008-08-31 & --- & \makecell{``Investigation of Hydrocarbon Flame Structure\\using Probe Sampling and GC/MS'' \\
+2008-06-01 -- 2008-08-31 & --- & \makecell{``Investigation of Hydrocarbon Flame Structure\\using Probe Sampling and GC/MS'' \\
 Case Western Reserve University Summer\\Undergraduate Research in Energy Sciences Grant \\
 Funding: \$3,500}
-\end{longtable}
+\end{tabular}
 \end{center}
 
 \section{{\sectionfont Journal Publications}}
@@ -495,11 +504,53 @@ Funding: \$3,500}
         \figshare{10.6084/m9.figshare.5098933}
 \end{bibmune}
 
-\vspace{0.1in}
+\vspace{\baselineskip}
+
+\section{\sectionfont{} Mentoring}
+
+\begin{lonelist}
+\item Ph.D.\ committee co-chair, Ruozhou Fang, Mechanical Engineering, exp.\ 2020
+\item Ph.D.\ thesis committe member, Taofeek Orekan, Electrical Engineering, 2017
+\item Ph.D.\ thesis committee member, Goutham Kukkadapu, Mechanical Engineering, 2016
+\item M.S.\ committee member, Rishi Roy, Mechanical Engineering, 2018
+\item M.S.\ committee member, Kyle Twarog, Mechanical Engineering, 2018
+\item M.S.\ committee member, Justin Bunnell, Mechanical Engineering, 2015
+\end{lonelist}
+
+\vspace{\baselineskip}
 
 \section{{\sectionfont Professional Service}}
 
 \begin{lonelist}
+\item[] \org{Cantera Steering Committee} \hfill 2018--Present\\
+\position{Member}
+
+\begin{innerlist}
+    \item Coordinating Cantera development and activities for the benefit of the community
+    \item As representative for the Cantera project, attended 2018 NumFOCUS Summit Meeting for all projects sponsored by NumFOCUS
+    \item Establishing roadmap for Cantera development, including objectives related to technical features and community engagement
+\end{innerlist}
+
+\item[] \org{Worcester Polytechnic Institute Institute for Project-Based Learning} \hfill 2018\\
+\position{University of Connecticut Team Leader}
+
+\begin{innerlist}
+    \item Lead team of 7 faculty from Engineering, Computer Science, Accounting, and Education
+    \item Developed plan to implement project-based learning in the School of Engineering Curriculum at UConnRCMPy
+    \item Presented plan to attendees of the Institute
+    \item Worked with UConn Administration to identify key stakeholders, roadblocks, and resources required to implement Project-Based Learning
+\end{innerlist}
+
+\item[] \org{University of Connecticut, Department of Mechanical Engineering} \hfill 2017--Present\\
+\position{Member, ABET Committee}\\
+\position{Member, Ph.D.\ Qualifier Committee}
+
+\begin{innerlist}
+    \item Developing materials to demonstrate continuing improvement for 2019 ABET accreditation visit
+    \item Developed pre- and post-quizzes for undergraduate Thermodynamics courses in Mechanical Engineering to demonstrate student achievement of ABET outcomes
+    \item Developed Ph.D.\ qualifying exam questions in collaboration with other department faculty
+\end{innerlist}
+
 \item[] \org{Combustion Energy Frontier Research Center (CEFRC)} \hfill 2012--2014\\
 \position{Lead Chair, Junior Associates Committee}
 
@@ -527,7 +578,7 @@ EFRC research, including:\\
 \item Edit articles written by other board members for factual and grammatical correctness.
 \end{innerlist}
 
-\item[] Journal Referee
+\item[] \org{Journal Referee}
    \begin{innerlist}
        \item Combustion and Flame
        \item Energy \& Fuels
