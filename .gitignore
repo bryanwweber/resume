@@ -3,3 +3,5 @@ bweber_cv_faculty.*
 preamble.*
 !preamble.tex
 .vscode/
+bweber_cv_industry.*
+!bweber_cv_industry.tex
