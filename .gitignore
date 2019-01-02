@@ -5,3 +5,5 @@ preamble.*
 .vscode/
 bweber_cv_industry.*
 !bweber_cv_industry.tex
+one-page-resume.*
+!one-page-resume.tex

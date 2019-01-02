@@ -1,0 +1,249 @@
+% !TEX program = xelatex
+% Based on a template by Jan Küster, licensed under the MIT license
+% https://github.com/jankapunkt/latexcv
+
+\documentclass[11pt]{article}
+\usepackage{microtype}
+\usepackage[default]{raleway}
+\usepackage{moresize}
+
+\usepackage[letterpaper]{geometry}
+
+\geometry{top=0.75in, left=0.75in, right=0.75in, bottom=-0.4cm}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+\setlength{\headheight}{-5pt}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\setlength{\parindent}{0pt}
+
+\usepackage{array}
+\newcolumntype{x}[1]{%
+>{\raggedleft\hspace{0pt}}p{#1}}%
+
+\usepackage{enumitem}
+\setlist{nosep}
+
+\usepackage{color}
+%accent color
+\definecolor{sectcol}{RGB}{0,150,255}
+%dark background color
+\definecolor{bgcol}{RGB}{110,110,110}
+%light background / accent color
+\definecolor{softcol}{RGB}{225,225,225}
+
+\newcommand{\cvsection}[1]
+{
+\begin{center}
+    \large\textcolor{sectcol}{\textbf{#1}}
+\end{center}
+}
+
+%----------------------------------------------------------------------------------------
+%	 CV EVENT
+%----------------------------------------------------------------------------------------
+
+\newcommand{\edevent}[3]
+{
+\begin{tabular*}{1\textwidth}{p{13.9cm} x{3.04cm}}%
+    \textbf{#2} - \textcolor{bgcol}{#3} & \vspace{2.5pt}\textcolor{sectcol}{#1}%
+\end{tabular*}
+
+\vspace{-4pt}
+}
+
+\newenvironment{cvevent}[3]{%
+%
+\begin{tabular*}{1\textwidth}{p{13.9cm} x{3.04cm}}%
+    \textbf{#2} - \textcolor{bgcol}{#3} & \vspace{2.5pt}\textcolor{sectcol}{#1}%
+\end{tabular*}%
+
+\vspace{-8pt}%
+\textcolor{softcol}{\hrule}%
+\vspace{6pt}%
+}{
+\vspace{6pt}
+}
+
+%----------------------------------------------------------------------------------------
+% CUSTOM STRUT FOR EMPTY BOXES
+%----------------------------------------- -----------------------------------------------
+\newcommand{\mystrut}{\rule[-.3\baselineskip]{0pt}{\baselineskip}}
+
+\newcommand*{\meauthor}[1]{\textbf{#1}}
+\newcommand*{\papertitle}[1]{\textit{#1}}
+
+\usepackage{hyperref}
+\usepackage{url}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.3}
+\hypersetup{
+    colorlinks,
+    breaklinks,
+    linkcolor=darkblue,
+    urlcolor=darkblue,
+    anchorcolor=darkblue,
+    citecolor=darkblue,
+    pdfinfo={
+        Title={Resume of Bryan W. Weber},
+        Author={Bryan W. Weber},
+    },
+}
+
+% You can adjust the style \url{} uses here:
+% (options are: same, rm, sf, tt; defaults to tt)
+\urlstyle{same}
+
+% For \email{ADDRESS}, links ADDRESS to the url mailto:ADDRESS
+% (uncomment to typeset the e\-/mail address in typewriter font;
+%  otherwise, will be typeset in the \urlstyle above)
+\DeclareUrlCommand\emaillink{\urlstyle{same}}
+\providecommand*\emaillink[1]{\nolinkurl{#1}}
+\providecommand*\email[1]{\href{mailto:#1}{\emaillink{#1}}}
+
+\usepackage{academicons}
+\usepackage{fontawesome}
+\newcommand{\iconspace}{\enspace}
+\newcommand{\arxiv}[1]{\aiarXiv\iconspace arxiv:\href{https://arxiv.org/abs/#1}{#1}}
+\newcommand{\doi}[1]{\aiDoi\iconspace doi:\href{https://doi.org/#1}{#1}}
+% \newcommand{\figshare}[1]{\aiFigshare\iconspace figshare:\href{https://doi.org/#1}{#1}}
+% \newcommand{\refurl}[1]{\faGlobe\iconspace\url{#1}}
+
+\begin{document}
+
+\pagestyle{fancy}
+
+\vspace{-8pt}
+\begin{center}
+    {\HUGE \textsc{Bryan W.\ Weber, Ph.D.}}
+
+    \vspace{3pt}
+
+    \email{bryan.w.weber@gmail.com} \quad\textbullet\quad \url{https://bryanwweber.com} \quad\textbullet\quad 412-443-6447
+\end{center}
+
+\vspace{-12pt}
+\textcolor{softcol}{\hrule}
+
+\normalsize
+
+% \vspace{-6pt}
+% \cvsection{Summary}
+% Assistant Professor in Residence in Mechanical Engineering with five years experience
+% working with diverse groups of students teaching thermal-fluids engineering. Four-time
+% recipient of Teaching Commendation for excellence on student evaluations, twice-nominated
+% for University Teaching Innovation Award by Department chair. Ph.D.\ focus
+% on analyzing large models for combustion of biofuels. Experience with Python, web
+% development, and data analysis using Jupyter Notebooks.
+
+%---------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%---------------------------------------------------------------------------------------
+\cvsection{Education}
+
+\edevent{2014}{Ph.D.}{Mechanical Engineering, University of Connecticut}
+\edevent{2010}{M.S.}{Mechanical Engineering, University of Connecticut}
+\edevent{2009}{B.S.E.}{Aerospace Engineering, Case Western Reserve University}
+
+%---------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+\cvsection{Select Experience}
+
+\begin{cvevent}{2014--Present}%
+{Assistant Professor in Residence}%
+{University of Connecticut}%
+\begin{itemize}
+    \item Teaching 3 undergraduate courses per semester including strong focus on problem
+    solving and quantitative analysis of engineering problems
+    \item Recorded over 80 lecture videos for Thermodynamic Principles, available on
+    \href{https://www.youtube.com/playlist?list=PLnOxmF4n89SXsKxFb6ug0ThMNpqJST5_X}{YouTube}
+    \item Advised 20 senior capstone design student teams on project management, meeting
+    deliverables, and adjusting to changing priorities
+    % \item Mentoring graduate and undergraduate TAs in grading and tutoring
+    % \item Mentored 10 undergraduate and high-school students on software development
+    % research projects
+\end{itemize}
+\end{cvevent}
+
+\begin{cvevent}{2013--Present}
+{Open-Source Software Developer}
+{\href{https://github.com/bryanwweber/thermostate}{ThermoState},
+\href{https://github.com/cantera}{Cantera},
+\href{https://github.com/pr-omethe-us/pyked}{ChemKED/PyKED}}
+\begin{itemize}
+    \item Developing open-source Python software packages for thermodynamics courses,
+    modeling of chemical reaction networks, and databases of combustion experiments
+    \item Deployed software to classes of over 150 students using Docker containers and
+    JupyterHub
+    \item Using Jupyter Notebooks to analyze database of 700 combustion experiments to
+    build models to predict combustion behavior
+    \item Redesigned \url{https://cantera.org} to use modern responsive design and static
+    HTML generator
+    % \item Organized 4 workshops for approximately 200 Cantera users at regional and
+    % national conferences
+    \item Posted over 850 messages to support Cantera users on the public
+    \href{https://groups.google.com/forum/#!forum/cantera-users}{Google Group}
+\end{itemize}
+\end{cvevent}
+
+\begin{cvevent}{2009--2014}
+{Graduate Research Assistant}
+{University of Connecticut}
+\begin{itemize}
+    \item Developed an open-source Python-based experimental analysis package to quickly
+    and repeatably process data files with over 100,000 time-series points
+    \item Analyzed kinetic models with thousands of species and tens of thousands of
+    reactions to determine the parameters controlling prediction of ignition delay and to
+    improve the ability of the models to predict combustion events
+\end{itemize}
+\end{cvevent}
+
+\cvsection{Select Publications and Presentations}
+
+\meauthor{B.W.\ Weber}. \papertitle{ThermoState: A state manager for thermodynamics
+courses}. Journal of Open Source Education, vol.\ 1, no.\ 8, pp.\ 33,
+Oct.\ 2018.
+\doi{10.21105/jose.00033}
+
+\meauthor{B.W.\ Weber} and K.E.\ Niemeyer. \papertitle{ChemKED: a human- and
+machine-readable data standard for chemical kinetics experiments.} International Journal
+of Chemical Kinetics, vol.\ 50, no.\ 3, pp.\ 135--148, Mar.\ 2018.
+\doi{10.1002/kin.21142} \quad \arxiv{1706.01987v3}
+
+\textbf{Cantera Workshop \& Forum}. Held at 4 National and Regional conferences of the Combustion
+Institute. Presented Cantera tutorials \& applications with core developers to over 200
+users. \url{https://cantera.github.io/ncm-2019-workshop}
+
+% \meauthor{B.W.\ Weber}, J.A.\ Bunnell, K.\ Kumar, and C.J.\ Sung. \papertitle{Experiments
+% and Modeling of the Autoignition of Methyl Pentanoate at Low to Intermediate Temperatures
+% and Elevated Pressures in a Rapid Compression Machine.} Fuel, vol.\ 212, pp.\ 479--486,
+% Jan.\ 2018. \doi{10.1016/j.fuel.2017.10.037}
+
+\cvsection{Select Awards \& Honors}
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Four-time} recipient of the University of Connecticut Provost's Teaching
+    Commendation, awarded to faculty for excellence on their end-of-semester evaluations
+    \item \textbf{Two-time} elected commencement marshal by the senior-class students
+    \item \textbf{Two-time} University of Connecticut Teaching Innovation award nominee by
+    Department Chair
+\end{itemize}
+
+\cvsection{Select Skills}
+
+\begin{tabular}{ll}
+\textbf{Programming:} Python, Git, C++, Jupyter, Pandas & \textbf{Web Design:} JavaScript, CSS, Bootstrap v4.1 \\
+\textbf{Cloud and DevOps:} Docker, TravisCI, Appveyor &
+\textbf{Operating Systems:} Linux, macOS, Windows
+\end{tabular}
+
+\renewcommand\UrlFont{\color{white}}
+\null
+\vspace*{\fill}
+\hspace{-0.25\linewidth}%
+\colorbox{bgcol}{\makebox[1.5\linewidth][c]{\rule[-.3\baselineskip]{0pt}{\baselineskip} \small \url{https://bryanwweber.com} \textbullet\ \url{https://github.com/bryanwweber}}}
+
+\end{document}
