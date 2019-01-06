@@ -18,7 +18,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%% Document Setup %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Don't like 10pt? Try 11pt or 12pt
-\documentclass[12pt,final]{article}
+\documentclass[11pt,final]{article}
 \usepackage{fontspec}
 \usepackage{varwidth}
 \usepackage{microtype}
@@ -27,14 +27,15 @@
 %installed on the system can be used. Select the font here.
 %
 \defaultfontfeatures{Mapping=tex-text}
-\setmainfont[Path = fonts/ ,
-             Ligatures = TeX ,
-             Extension = .otf ,
-             BoldFont = Andada-Bold ,
-             ItalicFont = Andada-Italic ,
-             SmallCapsFont = AndadaSC-Regular
-]
-{Andada-Regular}
+% \setmainfont[Path = fonts/ ,
+%              Ligatures = TeX ,
+%              Extension = .otf ,
+%              BoldFont = Andada-Bold ,
+%              ItalicFont = Andada-Italic ,
+%              SmallCapsFont = AndadaSC-Regular
+% ]
+% {Andada-Regular}
+\usepackage[default]{raleway}
 \newfontface\head[Path=fonts/]{GenBkBasB.ttf}
 \newfontface\sectionfont[Path=fonts/,Scale=0.9]{PlayfairDisplaySC-Regular.ttf}
 
@@ -352,7 +353,7 @@
 % For \email{ADDRESS}, links ADDRESS to the url mailto:ADDRESS
 % (uncomment to typeset the e\-/mail address in typewriter font;
 %  otherwise, will be typeset in the \urlstyle above)
-\DeclareUrlCommand\emaillink{\urlstyle{rm}}
+\DeclareUrlCommand\emaillink{\urlstyle{same}}
 \providecommand*\emaillink[1]{\nolinkurl{#1}}
 \providecommand*\email[1]{\href{mailto:#1}{\emaillink{#1}}}
 
