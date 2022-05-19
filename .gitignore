@@ -1,9 +1,1 @@
-bweber_cv_faculty.*
-!bweber_cv_faculty.tex
-preamble.*
-!preamble.tex
-.vscode/
-bweber_cv_industry.*
-!bweber_cv_industry.tex
-one-page-resume.*
-!one-page-resume.tex
+build

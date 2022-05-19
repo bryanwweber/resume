@@ -1,0 +1,8 @@
+**
+(index.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18>
+! Undefined control sequence.
+l.13 \namesection
+                 {Bryan Weber}{\urlstyle{same}\href{https://bryanwweber.com}...
+No pages of output.
