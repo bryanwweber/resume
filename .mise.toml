@@ -1,0 +1,5 @@
+[tools]
+tectonic-typesetting = "latest"
+
+[plugins]
+tectonic-typesetting = "https://github.com/bryanwweber/asdf-tectonic-typesetting"
