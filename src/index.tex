@@ -1,12 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-%     LAST UPDATED DATE
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \lastupdated
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
 %     TITLE NAME
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -14,33 +7,46 @@
 \href{mailto:bryan.w.weber@gmail.com}{bryan.w.weber@gmail.com} | \href{https://github.com/bryanwweber}{\faGithub/bryanwweber}
 }
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-%     COLUMN ONE
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Summary}
 
-% \begin{minipage}[t]{0.63\textwidth}
+\raggedright
+
+Highly motivated and results-oriented software engineer with strong analytical and problem-solving skills. Expertise in building high-performance back-end systems, data pipelines, and machine learning workflows. Proven ability to collaborate effectively, adapt to changing priorities, and deliver impactful results. Passionate about innovation, building cohesive teams, and fostering a culture of continuous improvement.
+
+\sectionsep
+
+\section{Skills}
+
+Python | Golang | Docker | Kubernetes | CI/CD | AWS Cloud Services (EC2, S3, EKS) | Machine Learning Pipeline Development (Flyte, Dagster) | Model Deployment | Software Design | Project Management | Team Leadership | Code Review | Communication
+
+\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EXPERIENCE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Integrated repo with pantsbuild, contributing taplo and pyproject.toml features upstream
-% Presented two lunch-and-learn topics for the engineering org covering advanced Python topics
+% Presented three lunch-and-learn topics for the engineering org covering advanced Python topics: Mise-en-place, Python packaging, Pantsbuild
 % Defined core team objectives for the ML-focused team
 % Deployed Slack application to notify users of relevant threads
 % Developed workflows using Flyte to train and deploy ML models to Torchserve
 % Developed and deployed an application agnostic HTTP API for ML model inference
-% Supported continuous model improvement functionality for integrated software tracker
+% Supported continuous model improvement functionality for integrated software tracker (the mail box)
 \section{Select Experiences}
-\runsubsection{Senior Software Engineer}\location{| 2022-Present}
+\runsubsection{Staff Software Engineer}\location{| 2024-Present}\\
+\runsubsection{Senior Software Engineer}\location{| 2022-2024}\\
 \descript{Rebellion Defense}
 \begin{tightemize}
-\item Developed ML applications
+\item Developed and maintained modular high-performance software systems using Python, golang, gRPC, and RabbitMQ.
+\item Enabled rapid training and deployment of machine learning models using Kubernetes and AWS EKS.
+\item Participated as a subject-matter expert for customer-facing demonstrations, including to the Chief Scientist of the Air Force.
+\item Led the integration of LLM-generated action report summaries to our adversary emulation software.
+\item Led the development and integration of the Decision Transformer, a core component responsible for data processing within the Rebellion Decision Engine.
+\item Championed developer productivity by seeking out and implementing more efficient tools while strategically removing unused ones.
+\item Practiced empathy and focused code reviews on driving customer value, fostering team growth, and shared skill development.
 \end{tightemize}
 \sectionsep
 
-\runsubsection{OSS Engineer}\location{| 2022}
+\runsubsection{OSS Engineer}\location{| 2022}\\
 \descript{Coiled Computing}
 
 % Worked with GB-TB scale Parquet files to find and fix performance bottlenecks with cloud (S3) storage
@@ -50,29 +56,9 @@
 % Participated in community team issue triage, question answering
 \begin{tightemize}
 \item Used Dask to identify performance bottlenecks when loading terabyte-scale Parquet data from cloud storage
-\item Developed an \verb|ipywidgets|-based dashboard to display cluster status in the Coiled client
-\item Refactored three Dask DataFrame creation and joining functions to improve task graph optimization
-\item Added hooks for \verb|dask.distributed.Client| to run user-supplied preload plugins
-\end{tightemize}
-
-\sectionsep
-
-\runsubsection{Core Developer and Community Leader}\location{| 2014–Present}\\
-\runsubsection{Steering Committee Member}\location{| 2017–Present}\\
-\descript{Cantera Software Project | \normalfont\href{https://github.com/Cantera}{\faGithub/Cantera}}
-
-% \vspace{\topsep}
-\begin{tightemize}
-% \item Cantera is the largest open-source code for thermodynamics, chemical kinetics, and mass transport calculations
-% \item Migrate continuous integration infrastructure for automated tests and packaging from Travis CI and Appveyor to GitHub Actions
-\item Developed and automated build of Conda and PyPI packages for our C-extension, downloaded 200,000+ times in 5+ years
-% \item Maintain SCons-based build system for macOS, Linux, and Windows, supporting GCC, Clang, MSVC, and MinGW compilers
-\item Developed and automated build and deployment of the Cantera website to Linode hosting
-\item Received \$2.5M grant from NSF to expand Cantera to novel scientific domains and develop sustainable communities
-% \item Managed the 2020 community survey, receiving over 60 responses and leading to dropping support for Win32
-% \item Moderate Cantera User's Group, responding to 1,200+ posts over 10+ years
-\item Organized and led three training workshops at international conferences with up to 100 paying attendees
-% \item Mentored 2 GSoC students under the NumFOCUS umbrella, leading to two feature enhancements
+\item Led development of an \verb|ipywidgets|-based dashboard to display cluster status in the Coiled client
+% \item Optimized task graph generation in Dask by improving three Dask DataFrame APIs
+% \item Added hooks for \verb|dask.distributed.Client| to run user-supplied preload plugins
 \end{tightemize}
 \sectionsep
 
@@ -88,8 +74,27 @@
 \item Managed 1-2 research students working on open-source software, plus 4-10 teaching assistants per year
 % \item Supported department administrative functions, including hiring staff and student communications
 % \item Research effectiveness of using Jupyter Notebooks in engineering course work for assignments and projects, published in two conference proceedings
-\item Taught 200+ undergraduate students each semester, achieving median 5/5 rating on student evaluations
+% \item Taught 200+ undergraduate students each semester, achieving median 5/5 rating on student evaluations
 \item Deployed JupyterHub to on-premises RedHat virtual machine via Docker and Docker Compose, used by 200+ students per semester
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Core Developer and Community Leader}\location{| 2014–Present}\\
+\runsubsection{Steering Committee Member}\location{| 2017–Present}\\
+\descript{Cantera Software Project | \normalfont\href{https://github.com/Cantera}{\faGithub/Cantera}}
+
+% \vspace{\topsep}
+\begin{tightemize}
+% \item Cantera is the largest open-source code for thermodynamics, chemical kinetics, and mass transport calculations
+% \item Migrate continuous integration infrastructure for automated tests and packaging from Travis CI and Appveyor to GitHub Actions
+\item Developed and automated build of Conda and PyPI packages for our C-extension, downloaded 500,000+ times in 5+ years
+% \item Maintain SCons-based build system for macOS, Linux, and Windows, supporting GCC, Clang, MSVC, and MinGW compilers
+% \item Developed and automated build and deployment of the Cantera website to Linode hosting
+\item Received \$2.5M grant from NSF to expand Cantera to novel scientific domains and develop sustainable communities
+% \item Managed the 2020 community survey, receiving over 60 responses and leading to dropping support for Win32
+% \item Moderate Cantera User's Group, responding to 1,200+ posts over 10+ years
+\item Organized and led three training workshops at international conferences with up to 100 paying attendees per workshop
+% \item Mentored 2 GSoC students under the NumFOCUS umbrella, leading to two feature enhancements
 \end{tightemize}
 \sectionsep
 
@@ -99,7 +104,14 @@
 \item Written six in-depth articles covering topics in the Python ecosystem, including \href{https://realpython.com/python-main-function/}{Python \texttt{main} functions}, \href{https://realpython.com/python-datetime/}{using \texttt{datetime} and \texttt{dateutil}}, and \href{https://realpython.com/python-enumerate/}{the \texttt{enumerate} function}
 \item Articles are read by 30,000+ unique readers per week and were featured on the \href{https://pythonbytes.fm/episodes/show/151/certified-it-works-on-my-machine}{Python Bytes} and \href{https://realpython.com/podcasts/rpp/21/}{Real Python} podcasts
 \end{tightemize}
+\sectionsep
 
+\runsubsection{Author}\location{2020–Present}\\
+\descript{\normalfont\urlstyle{same}\url{https://orbital-mechanics.space}}
+\begin{tightemize}
+\item Teaching resource developed for a course at the University of Connecticut
+\item Currently among the top 10 results Google search results for \verb|orbital mechanics|
+\end{tightemize}
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -107,7 +119,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % \section{Service}
-% \runsubsection{Co-Chair, Small Development Grants Committee}\location{| 2019–Present}\\
+% \runsubsection{Co-Chair, Small Development Grants Committee}\location{| 2019–2023}\\
 % \descript{NumFOCUS}
 % \begin{tightemize}
 % \item Award up to \$87,000 three times annually to applicants from NumFOCUS projects
@@ -136,28 +148,28 @@
 %     PROJECTS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Other Select Projects}
-\begin{minipage}[t]{0.23\textwidth}
-\textbf{\href{https://github.com/orgs/conda-forge/teams?query=\%40bryanwweber}{conda-forge}}\\
-Maintainer of 11 conda-forge packages
-\end{minipage}
-\hfill\vline\hfill
-\begin{minipage}[t]{0.23\textwidth}
-\textbf{\href{https://github.com/bryanwweber/thermostate}{ThermoState}}\\
-Used in thermodynamics classes and published in the Journal of Open Source Education
-\end{minipage}
-\hfill\vline\hfill
-\begin{minipage}[t]{0.23\textwidth}
-\textbf{\href{https://github.com/bryanwweber/MyST-NB-Bokeh}{MyST-NB-Bokeh}}\\
-Compute Bokeh figures and paste them into JupyterBook pages
-\end{minipage}
+% \section{Other Select Projects}
+% \begin{minipage}[t]{0.23\textwidth}
+% \textbf{\href{https://github.com/orgs/conda-forge/teams?query=\%40bryanwweber}{conda-forge}}\\
+% Maintainer of 11 conda-forge packages
+% \end{minipage}
 % \hfill\vline\hfill
 % \begin{minipage}[t]{0.23\textwidth}
-% \textbf{\href{https://github.com/bryanwweber/cansen}{CanSen}}\\
-% Simplified input-file based user interface for Cantera
+% \textbf{\href{https://github.com/bryanwweber/thermostate}{ThermoState}}\\
+% Used in thermodynamics classes and published in the Journal of Open Source Education
 % \end{minipage}
-\hfill\vline\hfill
-\begin{minipage}[t]{0.23\textwidth}
-\textbf{\href{https://github.com/bryanwweber/thermohw}{thermohw}}\\
-Converts Jupyter Notebooks into homework assignments via a custom \verb|nbconvert| template
-\end{minipage}
+% \hfill\vline\hfill
+% \begin{minipage}[t]{0.23\textwidth}
+% \textbf{\href{https://github.com/bryanwweber/MyST-NB-Bokeh}{MyST-NB-Bokeh}}\\
+% Compute Bokeh figures and paste them into JupyterBook pages
+% \end{minipage}
+% % \hfill\vline\hfill
+% % \begin{minipage}[t]{0.23\textwidth}
+% % \textbf{\href{https://github.com/bryanwweber/cansen}{CanSen}}\\
+% % Simplified input-file based user interface for Cantera
+% % \end{minipage}
+% \hfill\vline\hfill
+% \begin{minipage}[t]{0.23\textwidth}
+% \textbf{\href{https://github.com/bryanwweber/thermohw}{thermohw}}\\
+% Converts Jupyter Notebooks into homework assignments via a custom \verb|nbconvert| template
+% \end{minipage}
