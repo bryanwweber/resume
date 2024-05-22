@@ -1,4 +1,20 @@
 {
     "latex-workshop.latex.autoBuild.run": "never",
-    "latex-workshop.latex.outDir": "build/default"
+    "latex-workshop.latex.outDir": "build/default",
+    "editor.wordWrapColumn": 88,
+    "editor.wordWrap": "bounded",
+    "cSpell.words": [
+        "Bokeh",
+        "Dagster",
+        "Dask",
+        "dateutil",
+        "ipywidgets",
+        "MSVC",
+        "nbconvert",
+        "pantsbuild",
+        "pyproject",
+        "taplo",
+        "toml",
+        "Torchserve"
+    ]
 }

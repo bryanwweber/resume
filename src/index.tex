@@ -6,18 +6,12 @@
 \namesection{Bryan Weber}{\urlstyle{same}\href{https://bryanwweber.com}{bryanwweber.com} |
 \href{mailto:bryan.w.weber@gmail.com}{bryan.w.weber@gmail.com} | \href{https://github.com/bryanwweber}{\faGithub/bryanwweber}
 }
-
+\sectionsep
 \section{Summary}
 
 \raggedright
 
-Highly motivated and results-oriented software engineer with strong analytical and problem-solving skills. Expertise in building high-performance back-end systems, data pipelines, and machine learning workflows. Proven ability to collaborate effectively, adapt to changing priorities, and deliver impactful results. Passionate about innovation, building cohesive teams, and fostering a culture of continuous improvement.
-
-\sectionsep
-
-\section{Skills}
-
-Python | Golang | Docker | Kubernetes | CI/CD | AWS Cloud Services (EC2, S3, EKS) | Machine Learning Pipeline Development (Flyte, Dagster) | Model Deployment | Software Design | Project Management | Team Leadership | Code Review | Communication
+Experienced software engineer seeking to impact mission outcomes by leveraging expertise in building complex, data-driven solutions. Proven ability to collaborate effectively, own projects end-to-end, and drive innovation to deliver impactful results for stakeholders. Passionate about building cohesive teams and fostering a culture of continuous improvement.
 
 \sectionsep
 
@@ -31,52 +25,56 @@ Python | Golang | Docker | Kubernetes | CI/CD | AWS Cloud Services (EC2, S3, EKS
 % Developed workflows using Flyte to train and deploy ML models to Torchserve
 % Developed and deployed an application agnostic HTTP API for ML model inference
 % Supported continuous model improvement functionality for integrated software tracker (the mail box)
-\section{Select Experiences}
-\runsubsection{Staff Software Engineer}\location{| 2024-Present}\\
-\runsubsection{Senior Software Engineer}\location{| 2022-2024}\\
-\descript{Rebellion Defense}
-\begin{tightemize}
-\item Developed and maintained modular high-performance software systems using Python, golang, gRPC, and RabbitMQ.
-\item Enabled rapid training and deployment of machine learning models using Kubernetes and AWS EKS.
-\item Participated as a subject-matter expert for customer-facing demonstrations, including to the Chief Scientist of the Air Force.
-\item Led the integration of LLM-generated action report summaries to our adversary emulation software.
-\item Led the development and integration of the Decision Transformer, a core component responsible for data processing within the Rebellion Decision Engine.
-\item Championed developer productivity by seeking out and implementing more efficient tools while strategically removing unused ones.
-\item Practiced empathy and focused code reviews on driving customer value, fostering team growth, and shared skill development.
-\end{tightemize}
+\setlist{itemsep=0.07ex, leftmargin=0.6cm}
+\section{Experience}
+\runsubsection{Staff Software Engineer}\location{| 2024–Present}\\
+\runsubsection{Senior Software Engineer}\location{| 2022–2024}\\
+\descript{Rebellion Defense}; defense tech startup valued over \$1B, building software for battlefield analysis.
+
+\begin{itemize}
+\item Lead Python developer on a modular and scalable microservice-based system to process tens-to-hundreds of thousands of sensor messages for battlefield observability. Built with Python, golang, gRPC, and RabbitMQ.
+\item Led 1-month integration of ML algorithms for a \$1M/year contract. Enabled evaluating thousands of potential actions per second, while current capabilities are limited to dozens per day.
+\item Led as the subject matter expert for ML-based task assignment algorithms during \$1M/year-contract close-out demonstration to the Chief Scientist of the Air Force.
+\item Integrated LLM-generated action report summaries in our adversary emulation software. Used the OpenAI API with an optimized prompt to produce high-level overviews for non-technical stakeholders.
+\item Developed pipelines that rapidly deployed ML models to perform cyber-asset criticality assessment and automated training data generation. Used Flyte, Kubernetes, and AWS EKS to maintain model provenance.
+% \item Championed developer productivity by seeking out and implementing more efficient tools while strategically removing unused ones. Added \verb|pantsbuild| to three repositories working with approximately 20 engineers and contributed in-house features back upstream to the open-source project.
+\item Founding member of a cross-disciplinary team focused on cultivating a positive and inclusive work environment through initiatives promoting empathy, team building, and open communication.
+\item Reviewed hundreds of code changes from dozens of team members. Emphasized driving customer value, fostering team growth, and shared skill development.
+\end{itemize}
 \sectionsep
 
-\runsubsection{OSS Engineer}\location{| 2022}\\
-\descript{Coiled Computing}
+\runsubsection{Open Source Software Engineer}\location{| 2022}\\
+\descript{Coiled Computing}; early stage SaaS startup making cloud management tools integrated with the Dask ecosystem.
 
 % Worked with GB-TB scale Parquet files to find and fix performance bottlenecks with cloud (S3) storage
 % Merged 15 PRs in 4 months
 % Refactored DataFrame creation APIs to use high-level graphs, enabling performance optimizations
 % Developed Coiled Cloud widget for v2
 % Participated in community team issue triage, question answering
-\begin{tightemize}
-\item Used Dask to identify performance bottlenecks when loading terabyte-scale Parquet data from cloud storage
-\item Led development of an \verb|ipywidgets|-based dashboard to display cluster status in the Coiled client
+\begin{itemize}
+\item Led performance improvement feature for Dask to enable loading terabyte-scale Parquet data from cloud storage. Results led to changing recommendations for settings in Dask to prevent out-of-memory errors.
+\item Led development of a highly-requested dashboard to display cluster status in the Coiled client.
 % \item Optimized task graph generation in Dask by improving three Dask DataFrame APIs
 % \item Added hooks for \verb|dask.distributed.Client| to run user-supplied preload plugins
-\end{tightemize}
+\end{itemize}
 \sectionsep
 
-\runsubsection{Director of Undergraduate Studies}\location{| 2019-2022}\\
+\runsubsection{Director of Undergraduate Studies}\location{| 2019–2022}\\
 \runsubsection{Assistant Professor in Residence}\location{| 2014–2022}\\
 \descript{Mechanical Engineering Department, University of Connecticut}
 
 % \vspace{\topsep}
-\begin{tightemize}
-% \item Produced 150 lecture videos, viewed over 218,000 times over three years, with 1,400+ channel subscribers
-\item Led development of new curriculum for over 800 undergraduate students in Mechanical Engineering balancing needs of students, faculty, and industrial partners
+\begin{itemize}
+\item Managed deployment and maintenance of JupyterHub to on-premises RedHat virtual machine via Docker and Docker Compose, scaled for use by 200+ students per semester. Enabled courses to have consistent software base and significantly reduced student issues due to software installation.
+% \item Produced 150 lecture videos, viewed over 218,000 times over three years, with 1,400+ YouTube channel subscribers.
+\item Led 2-year development of new Mechanical Engineering curriculum for over 800 undergraduate students, balancing the needs of students, faculty, and industrial partners. Incorporated modern computation for engineering throughout the curriculum for the first time at UConn.
 % \item New curriculum incorporates modern computation for engineering including the use of Scientific Python tools
-\item Managed 1-2 research students working on open-source software, plus 4-10 teaching assistants per year
+\item Directed and mentored 10 undergraduate researchers working on open-source software. All the students had code changes merged in prominent open-source projects for scientific computing.
+% \item Manged 4--10 teaching assistants per year, mentoring them in communication and teaching skills.
 % \item Supported department administrative functions, including hiring staff and student communications
 % \item Research effectiveness of using Jupyter Notebooks in engineering course work for assignments and projects, published in two conference proceedings
 % \item Taught 200+ undergraduate students each semester, achieving median 5/5 rating on student evaluations
-\item Deployed JupyterHub to on-premises RedHat virtual machine via Docker and Docker Compose, used by 200+ students per semester
-\end{tightemize}
+\end{itemize}
 \sectionsep
 
 \runsubsection{Core Developer and Community Leader}\location{| 2014–Present}\\
@@ -84,49 +82,51 @@ Python | Golang | Docker | Kubernetes | CI/CD | AWS Cloud Services (EC2, S3, EKS
 \descript{Cantera Software Project | \normalfont\href{https://github.com/Cantera}{\faGithub/Cantera}}
 
 % \vspace{\topsep}
-\begin{tightemize}
+\begin{itemize}
 % \item Cantera is the largest open-source code for thermodynamics, chemical kinetics, and mass transport calculations
 % \item Migrate continuous integration infrastructure for automated tests and packaging from Travis CI and Appveyor to GitHub Actions
-\item Developed and automated build of Conda and PyPI packages for our C-extension, downloaded 500,000+ times in 5+ years
+\item Developed and automated build of Conda and PyPI packages for our C-extension, downloaded 500,000+ times in 5+ years.
 % \item Maintain SCons-based build system for macOS, Linux, and Windows, supporting GCC, Clang, MSVC, and MinGW compilers
-% \item Developed and automated build and deployment of the Cantera website to Linode hosting
-\item Received \$2.5M grant from NSF to expand Cantera to novel scientific domains and develop sustainable communities
+\item Developed and automated build and deployment of the Cantera website to Linode hosting, saving hundreds of hours of developer time.
+\item Received \$2.5M grant from NSF to expand Cantera to novel scientific domains and develop sustainable communities.
 % \item Managed the 2020 community survey, receiving over 60 responses and leading to dropping support for Win32
 % \item Moderate Cantera User's Group, responding to 1,200+ posts over 10+ years
-\item Organized and led three training workshops at international conferences with up to 100 paying attendees per workshop
+\item Organized and led three training workshops at international conferences with up to 100 paying attendees per workshop. Generated over \$10,000 of revenue for the project.
 % \item Mentored 2 GSoC students under the NumFOCUS umbrella, leading to two feature enhancements
-\end{tightemize}
+\end{itemize}
 \sectionsep
 
-\runsubsection{Author and Technical Reviewer}\location{| 2019–Present}\\
-\descript{Real Python | \normalfont\href{https://realpython.com/team/bweber/}{realpython.com}}
-\begin{tightemize}
-\item Written six in-depth articles covering topics in the Python ecosystem, including \href{https://realpython.com/python-main-function/}{Python \texttt{main} functions}, \href{https://realpython.com/python-datetime/}{using \texttt{datetime} and \texttt{dateutil}}, and \href{https://realpython.com/python-enumerate/}{the \texttt{enumerate} function}
-\item Articles are read by 30,000+ unique readers per week and were featured on the \href{https://pythonbytes.fm/episodes/show/151/certified-it-works-on-my-machine}{Python Bytes} and \href{https://realpython.com/podcasts/rpp/21/}{Real Python} podcasts
-\end{tightemize}
-\sectionsep
-
-\runsubsection{Author}\location{2020–Present}\\
-\descript{\normalfont\urlstyle{same}\url{https://orbital-mechanics.space}}
-\begin{tightemize}
-\item Teaching resource developed for a course at the University of Connecticut
-\item Currently among the top 10 results Google search results for \verb|orbital mechanics|
-\end{tightemize}
-\sectionsep
+% \runsubsection{Author}\location{2021–Present}\\
+% \descript{\normalfont\urlstyle{same}\url{https://orbital-mechanics.space}}
+% \begin{itemize}
+% \item Teaching resource developed for a course at the University of Connecticut.
+% \item Currently among the top 10 results Google search results for the query \verb|orbital mechanics|.
+% \end{itemize}
+% \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     SERVICE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % \section{Service}
-% \runsubsection{Co-Chair, Small Development Grants Committee}\location{| 2019–2023}\\
-% \descript{NumFOCUS}
-% \begin{tightemize}
-% \item Award up to \$87,000 three times annually to applicants from NumFOCUS projects
-% \item Organize and co-host decision meetings for 13 committee members, ensuring each application is discussed in the allotted time
-% \item Provide thoughtful, actionable, feedback to projects that are not selected for funding
-% \end{tightemize}
-% \sectionsep
+\runsubsection{Co-Chair, Small Development Grants Committee}\location{| 2019–2023}\\
+\descript{NumFOCUS}
+\begin{itemize}
+\item Awarded up to \$95,000 three times annually to applicants from among NumFOCUS sponsored and affiliated projects. Evaluated up to 40 applications per round.
+\item Organized and co-hosted decision meetings for 13 committee members, ensuring each application was discussed in the allotted time and each committee member was contributing effectively.
+\item Provided thoughtful, actionable, feedback to projects that were not selected for funding. Focused on empathetic communication to ensure projects were able to respond effectively in future funding rounds.
+\end{itemize}
+\sectionsep
+
+\runsubsection{Author and Technical Reviewer}\location{| 2019–2021}\\
+\descript{Real Python | \normalfont\href{https://realpython.com/team/bweber/}{realpython.com}}
+\begin{itemize}
+\item Wrote six in-depth articles averaging over 30,000 unique readers per week
+\item Covered basic to advanced topics in the Python ecosystem, including \href{https://realpython.com/python-main-function/}{Python \texttt{main} functions}, \href{https://realpython.com/python-datetime/}{using \texttt{datetime} and \texttt{dateutil}}, and \href{https://realpython.com/python-enumerate/}{the \texttt{enumerate} function}.
+\item Featured on the \href{https://pythonbytes.fm/episodes/show/151/certified-it-works-on-my-machine}{Python Bytes} and \href{https://realpython.com/podcasts/rpp/21/}{Real Python} podcasts.
+\end{itemize}
+\sectionsep
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EDUCATION
@@ -173,3 +173,11 @@ Python | Golang | Docker | Kubernetes | CI/CD | AWS Cloud Services (EC2, S3, EKS
 % \textbf{\href{https://github.com/bryanwweber/thermohw}{thermohw}}\\
 % Converts Jupyter Notebooks into homework assignments via a custom \verb|nbconvert| template
 % \end{minipage}
+
+\section{Skills}
+
+\textbf{Programming Languages}: Advanced Python\inlinespace Intermediate Golang\inlinespace Basic C++ \\[6pt]
+
+\textbf{DevOps \& Infrastructure}: Docker\inlinespace Kubernetes\inlinespace CI/CD\inlinespace AWS Cloud Services (EC2, S3, EKS)\inlinespace Machine Learning Pipeline Development (Flyte, Dagster) \\[6pt]
+
+\textbf{Software Development}: Software Design\inlinespace Project Management\inlinespace Team Leadership\inlinespace Code Review\inlinespace Communication

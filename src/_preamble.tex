@@ -50,12 +50,8 @@
 \newcommand{\location}[1]{
 \color{subheadings}\raggedright\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{10pt}{12pt}\selectfont {#1} \normalfont}
 
-% Bullet Lists with fewer gaps command
-\newenvironment{tightemize}{
-\vspace{-\topsep}\begin{itemize}\itemsep1pt \parskip0pt \parsep0pt}
-{\end{itemize}\vspace{-\topsep}}
-
 \usepackage{fontawesome}
+\usepackage{enumitem}
 \usepackage{fancyhdr}
 
 \pagestyle{fancy}
@@ -65,8 +61,10 @@
 \color{date}\fontspec[Path=fonts/lato/]{Lato-Reg}\fontsize{8pt}{10pt}\selectfont
 Last Updated on \today
 }
-\usepackage[colorlinks=false,
-allbordercolors={0 0 0},
-pdfborderstyle={/S/U/W 1}]{hyperref}
+% \usepackage[colorlinks=false,
+% allbordercolors={0 0 0},
+% pdfborderstyle={/S/U/W 1}]{hyperref}
+\usepackage{href-ul}
+\newcommand{\inlinespace}{\enspace\textbf{|}\enspace}
 
 \begin{document}
