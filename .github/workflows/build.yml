@@ -1,0 +1,40 @@
+name: Build PDF and archive
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-pdf:
+    name: Build PDF and archive
+    runs-on: ubuntu-24.04
+    env:
+      TECTONIC_CACHE_DIR: ${{ github.workspace }}/.cache/Tectonic
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+      - name: Set up mise-en-place
+        uses: jdx/mise-action@v2
+      - name: Cache tectonic
+        uses: actions/cache@v4
+        with:
+          path: ${{ env.TECTONIC_CACHE_DIR }}
+          key: tectonic-linux-v0-${{ hashFiles('Tectonic.toml') }}
+      - name: Build the PDF
+        run: tectonic -X build
+      - name: Rename the PDF
+        run: mv build/default/default.pdf Weber_Bryan_Resume.pdf
+      - name: Upload to artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: resume
+          path: Weber_Bryan_Resume.pdf
+          if-no-files-found: error
