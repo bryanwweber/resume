@@ -29,3 +29,22 @@ jobs:
           name: resume
           path: build/default/default.pdf
           if-no-files-found: error
+  upload-pdf:
+    name: Upload PDF to website
+    # if: ${{ github.ref == 'main' }}
+    needs: [build-pdf]
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Check out website repo
+        uses: actions/checkout@v4
+        with:
+          repository: bryanwweber/bryanwweber.github.io
+          ref: gh-pages
+      - name: Download the archive
+        uses: actions/download-artifact@v4
+        with:
+          name: resume
+          path: ".."
+      - name: Copy the resume to the right spot
+        run: "ls -laR .."
+      - run: pwd
