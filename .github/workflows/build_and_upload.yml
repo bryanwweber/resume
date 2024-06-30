@@ -1,0 +1,31 @@
+name: Build PDF and archive
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-pdf:
+    name: Build PDF and archive
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+      - name: Set up mise-en-place
+        uses: jdx/mise-action@v2
+      - name: Build the PDF
+        run: tectonic -X build
+      - name: Upload to artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: resume
+          path: build/default/default.pdf
+          if-no-files-found: error
