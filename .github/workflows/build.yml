@@ -30,9 +30,11 @@ jobs:
           key: tectonic-linux-v0-${{ hashFiles('Tectonic.toml') }}
       - name: Build the PDF
         run: tectonic -X build
+      - name: Rename the PDF
+        run: mv build/default/default.pdf Weber_Bryan_Resume.pdf
       - name: Upload to artifacts
         uses: actions/upload-artifact@v4
         with:
           name: resume
-          path: build/default/default.pdf
+          path: Weber_Bryan_Resume.pdf
           if-no-files-found: error
