@@ -55,5 +55,6 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Upload resume change on ${{ env.date }}"
+          branch: gh-pages
       - name: Push to origin
         run: git push
