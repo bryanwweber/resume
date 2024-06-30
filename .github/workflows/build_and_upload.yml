@@ -36,30 +36,3 @@ jobs:
           name: resume
           path: build/default/default.pdf
           if-no-files-found: error
-  upload-pdf:
-    name: Upload PDF to website
-    # if: ${{ github.ref == 'main' }}
-    needs: [build-pdf]
-    runs-on: ubuntu-24.04
-    steps:
-      - name: Check out website repo
-        uses: actions/checkout@v4
-        with:
-          repository: bryanwweber/bryanwweber.github.io
-          ref: gh-pages
-      - name: Download the archive
-        uses: actions/download-artifact@v4
-        with:
-          name: resume
-          path: ".."
-      - name: Copy the resume to the right spot
-        run: cp ../default.pdf files/cv/Weber_Bryan_Resume.pdf
-      - name: Commit the changes
-        run: |
-          git -c user.email="41898282+github-actions[bot]@users.noreply.github.com" -c user.name="github-actions[bot]" commit -a -m "Upload resume change on $(date +%Y-%m-%d)" --author "${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>"
-      - name: Push to remote
-        uses: ad-m/github-push-action@f17d07cb45271aeff552bb2913a939bad92d6a6f
-        with:
-          github_token: ${{ secrets.RESUME_UPLOAD }}
-          branch: gh-pages
-          repository: bryanwweber/bryanwweber.github.io
