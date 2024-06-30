@@ -58,6 +58,8 @@ jobs:
         run: cp ../default.pdf files/cv/Weber_Bryan_Resume.pdf
       - name: Get the date
         run: echo "date=$(date +%Y-%m-%d)" >> $GITHUB_ENV
+      - name: Set git remote
+        run: git remote set-url origin https://bryanwweber:${{ secrets.RESUME_UPLOAD }}@github.com/bryanwweber/bryanwweber.github.io.git
       - name: Commit the changed file
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
