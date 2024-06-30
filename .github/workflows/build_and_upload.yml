@@ -34,6 +34,8 @@ jobs:
     # if: ${{ github.ref == 'main' }}
     needs: [build-pdf]
     runs-on: ubuntu-24.04
+    permissions:
+      contents: write
     steps:
       - name: Check out website repo
         uses: actions/checkout@v4
@@ -46,5 +48,12 @@ jobs:
           name: resume
           path: ".."
       - name: Copy the resume to the right spot
-        run: "ls -laR .."
-      - run: pwd
+        run: cp ../default.pdf files/cv/Weber_Bryan_Resume.pdf
+      - name: Get the date
+        run: echo "date=$(date +%Y-%m-%d)" >> $GITHUB_ENV
+      - name: Commit the changed file
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Upload resume change on ${{ env.date }}"
+      - name: Push to origin
+        run: git push
