@@ -1,5 +1,21 @@
 [tools]
 tectonic-typesetting = "latest"
+watchexec = "latest"
 
-[plugins]
-tectonic-typesetting = "https://github.com/bryanwweber/asdf-tectonic-typesetting"
+[alias]
+tectonic-typesetting = "asdf:https://github.com/bryanwweber/asdf-tectonic-typesetting"
+
+[tasks.build]
+description = "Build the resume in HTML format"
+run = "pandoc --template=template.html -c resume.css --embed-resources --standalone -s -o resume.html --lua-filter=span-filter.lua --strip-comments resume.md"
+sources = ["resume.md", "template.html", "resume.css", "span-filter.lua"]
+outputs = ["resume.html"]
+tools.pandoc = "latest"
+
+[tasks.pdf]
+description = "Build the resume in PDF format"
+run = "uvx weasyprint resume.html resume.pdf"
+sources = ["resume.html"]
+outputs = ["resume.pdf"]
+depends = ["build"]
+tools.uv = "latest"
